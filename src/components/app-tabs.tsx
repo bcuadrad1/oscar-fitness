@@ -10,21 +10,43 @@ export default function AppTabs() {
   return (
     <NativeTabs
       backgroundColor={colors.background}
-      indicatorColor={colors.backgroundElement}
-      labelStyle={{ selected: { color: colors.text } }}>
-      <NativeTabs.Trigger name="index">
+      iconColor={{ default: colors.textSecondary, selected: colors.text }}
+      indicatorColor={colors.backgroundSelected}
+      labelStyle={{
+        default: { color: colors.textSecondary },
+        selected: { color: colors.text, fontWeight: '700' },
+      }}
+      labelVisibilityMode="labeled"
+      rippleColor={colors.backgroundSelected}>
+      <NativeTabs.Trigger name="index" disableAutomaticContentInsets>
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
-          src={require('@/assets/images/tabIcons/home.png')}
-          renderingMode="template"
+          sf={{ default: 'house', selected: 'house.fill' }}
+          md="home"
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="explore">
-        <NativeTabs.Trigger.Label>Explore</NativeTabs.Trigger.Label>
+      <NativeTabs.Trigger name="exercises" disableAutomaticContentInsets>
+        <NativeTabs.Trigger.Label>Exercises</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
-          src={require('@/assets/images/tabIcons/explore.png')}
-          renderingMode="template"
+          sf={{ default: 'dumbbell', selected: 'dumbbell.fill' }}
+          md="fitness_center"
+        />
+      </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name="routines" disableAutomaticContentInsets>
+        <NativeTabs.Trigger.Label>Routines</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon
+          sf={{ default: 'list.bullet.rectangle', selected: 'list.bullet.rectangle.fill' }}
+          md="format_list_bulleted"
+        />
+      </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name="admin" disableAutomaticContentInsets>
+        <NativeTabs.Trigger.Label>Admin</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon
+          sf={{ default: 'gearshape', selected: 'gearshape.fill' }}
+          md="settings"
         />
       </NativeTabs.Trigger>
     </NativeTabs>
