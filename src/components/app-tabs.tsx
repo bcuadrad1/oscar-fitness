@@ -18,7 +18,7 @@ export default function AppTabs() {
       }}
       labelVisibilityMode="labeled"
       rippleColor={colors.backgroundSelected}>
-      <NativeTabs.Trigger name="index" disableAutomaticContentInsets>
+      <NativeTabs.Trigger name="index">
         <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{ default: 'house', selected: 'house.fill' }}
@@ -26,7 +26,7 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="exercises" disableAutomaticContentInsets>
+      <NativeTabs.Trigger name="exercises">
         <NativeTabs.Trigger.Label>Exercises</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{ default: 'dumbbell', selected: 'dumbbell.fill' }}
@@ -34,7 +34,7 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="routines" disableAutomaticContentInsets>
+      <NativeTabs.Trigger name="routines">
         <NativeTabs.Trigger.Label>Routines</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{ default: 'list.bullet.rectangle', selected: 'list.bullet.rectangle.fill' }}
@@ -42,7 +42,7 @@ export default function AppTabs() {
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="admin" disableAutomaticContentInsets>
+      <NativeTabs.Trigger name="admin">
         <NativeTabs.Trigger.Label>Admin</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{ default: 'gearshape', selected: 'gearshape.fill' }}

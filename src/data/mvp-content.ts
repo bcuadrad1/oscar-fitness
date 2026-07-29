@@ -5,15 +5,6 @@ export type HomeAreaPreview = {
   description: string;
 };
 
-export type ExercisePreview = {
-  id: string;
-  name: string;
-  category: string;
-  focus: string;
-  equipment: string;
-  level: 'Beginner' | 'Intermediate';
-};
-
 export type RoutinePreview = {
   id: string;
   name: string;
@@ -50,49 +41,6 @@ export const HOME_AREAS = [
     description: 'See where future content management tools will live before operations are connected.',
   },
 ] as const satisfies readonly HomeAreaPreview[];
-
-export const EXERCISES = [
-  {
-    id: 'goblet-squat',
-    name: 'Goblet squat',
-    category: 'Strength',
-    focus: 'Quads and glutes',
-    equipment: 'Dumbbell',
-    level: 'Beginner',
-  },
-  {
-    id: 'incline-push-up',
-    name: 'Incline push-up',
-    category: 'Strength',
-    focus: 'Chest and triceps',
-    equipment: 'Bench',
-    level: 'Beginner',
-  },
-  {
-    id: 'single-arm-row',
-    name: 'Single-arm row',
-    category: 'Strength',
-    focus: 'Back and biceps',
-    equipment: 'Dumbbell',
-    level: 'Beginner',
-  },
-  {
-    id: 'romanian-deadlift',
-    name: 'Romanian deadlift',
-    category: 'Strength',
-    focus: 'Hamstrings and glutes',
-    equipment: 'Dumbbells',
-    level: 'Intermediate',
-  },
-  {
-    id: 'dead-bug',
-    name: 'Dead bug',
-    category: 'Core',
-    focus: 'Trunk stability',
-    equipment: 'Bodyweight',
-    level: 'Beginner',
-  },
-] as const satisfies readonly ExercisePreview[];
 
 export const ROUTINES = [
   {

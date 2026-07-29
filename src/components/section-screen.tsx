@@ -4,33 +4,54 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+import { MaxContentWidth, Spacing } from '@/constants/theme';
 
 type SectionScreenProps = PropsWithChildren<{
   eyebrow: string;
   title: string;
   description: string;
+  hasNavigationHeader?: boolean;
 }>;
 
-export function SectionScreen({ eyebrow, title, description, children }: SectionScreenProps) {
+export function SectionScreen({
+  eyebrow,
+  title,
+  description,
+  hasNavigationHeader = false,
+  children,
+}: SectionScreenProps) {
   const safeAreaInsets = useSafeAreaInsets();
+  const horizontalPadding =
+    Platform.OS === 'ios'
+      ? { paddingRight: Spacing.four, paddingLeft: Spacing.four }
+      : {
+          paddingRight: safeAreaInsets.right + Spacing.four,
+          paddingLeft: safeAreaInsets.left + Spacing.four,
+        };
+  const contentPadding = Platform.select({
+    web: {
+      paddingTop: Spacing.six + Spacing.four,
+      paddingBottom: Spacing.five,
+    },
+    android: {
+      paddingTop: (hasNavigationHeader ? 0 : safeAreaInsets.top) + Spacing.five,
+      paddingBottom: Spacing.five,
+    },
+    default: {
+      paddingTop: Spacing.five,
+      paddingBottom: safeAreaInsets.bottom + Spacing.five,
+    },
+  });
 
   return (
     <ThemedView style={styles.screen}>
       <ScrollView
-        contentInsetAdjustmentBehavior="never"
+        contentInsetAdjustmentBehavior="automatic"
+        keyboardDismissMode="on-drag"
+        keyboardShouldPersistTaps="handled"
         style={styles.scrollView}
-        contentContainerStyle={[
-          styles.contentContainer,
-          {
-            paddingTop:
-              Platform.OS === 'web' ? Spacing.six + Spacing.four : safeAreaInsets.top + Spacing.five,
-            paddingRight: safeAreaInsets.right + Spacing.four,
-            paddingBottom: safeAreaInsets.bottom + BottomTabInset + Spacing.five,
-            paddingLeft: safeAreaInsets.left + Spacing.four,
-          },
-        ]}>
-        <View style={styles.content}>
+        contentContainerStyle={[styles.contentContainer, contentPadding]}>
+        <View style={[styles.content, horizontalPadding]}>
           <View style={styles.header}>
             <View style={styles.eyebrowRow}>
               <ThemedView type="accent" style={styles.eyebrowRule} />
