@@ -5,7 +5,11 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Spacing } from '@/constants/theme';
-import type { Exercise } from '@/features/exercises/exercise-types';
+import {
+  formatExerciseEquipment,
+  getExerciseDifficultyLabel,
+  type Exercise,
+} from '@/features/exercises/exercise-types';
 import { useTheme } from '@/hooks/use-theme';
 
 type ExerciseCardProps = {
@@ -16,11 +20,13 @@ type ExerciseCardProps = {
 export function ExerciseCard({ exercise, onPress }: ExerciseCardProps) {
   const theme = useTheme();
   const [imageFailed, setImageFailed] = useState(false);
+  const difficultyLabel = getExerciseDifficultyLabel(exercise.difficulty);
+  const equipmentLabel = formatExerciseEquipment(exercise.equipmentIds);
 
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`Open ${exercise.name}. ${exercise.targetBodyArea}, ${exercise.difficulty}, ${exercise.equipment}.`}
+      accessibilityLabel={`Open ${exercise.name}. ${exercise.targetBodyArea}, ${difficultyLabel}, ${equipmentLabel}.`}
       accessibilityHint="Opens exercise instructions and video details"
       onPress={onPress}
       style={({ pressed }) => [
@@ -52,7 +58,7 @@ export function ExerciseCard({ exercise, onPress }: ExerciseCardProps) {
             {exercise.category}
           </ThemedText>
           <ThemedText type="code" themeColor="textSecondary">
-            {exercise.difficulty}
+            {difficultyLabel}
           </ThemedText>
         </View>
 
@@ -62,7 +68,7 @@ export function ExerciseCard({ exercise, onPress }: ExerciseCardProps) {
         <ThemedText themeColor="textSecondary">{exercise.description}</ThemedText>
 
         <View style={styles.metadata}>
-          {[exercise.targetBodyArea, exercise.equipment].map((item) => (
+          {[exercise.targetBodyArea, equipmentLabel].map((item) => (
             <ThemedView
               key={item}
               type="background"

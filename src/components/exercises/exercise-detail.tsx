@@ -5,7 +5,11 @@ import { SectionScreen } from '@/components/section-screen';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Spacing } from '@/constants/theme';
-import type { Exercise } from '@/features/exercises/exercise-types';
+import {
+  formatExerciseEquipment,
+  getExerciseDifficultyLabel,
+  type Exercise,
+} from '@/features/exercises/exercise-types';
 import { useTheme } from '@/hooks/use-theme';
 
 type ExerciseDetailProps = {
@@ -14,6 +18,8 @@ type ExerciseDetailProps = {
 
 export function ExerciseDetail({ exercise }: ExerciseDetailProps) {
   const theme = useTheme();
+  const difficultyLabel = getExerciseDifficultyLabel(exercise.difficulty);
+  const equipmentLabel = formatExerciseEquipment(exercise.equipmentIds);
 
   return (
     <SectionScreen
@@ -22,7 +28,7 @@ export function ExerciseDetail({ exercise }: ExerciseDetailProps) {
       description={exercise.description}
       hasNavigationHeader>
       <View style={styles.metadata}>
-        {[exercise.targetBodyArea, exercise.category, exercise.difficulty, exercise.equipment].map(
+        {[exercise.targetBodyArea, exercise.category, difficultyLabel, equipmentLabel].map(
           (item) => (
             <ThemedView
               key={item}
@@ -50,8 +56,8 @@ export function ExerciseDetail({ exercise }: ExerciseDetailProps) {
           <View style={styles.informationRows}>
             <InformationRow label="Target body area" value={exercise.targetBodyArea} />
             <InformationRow label="Category" value={exercise.category} />
-            <InformationRow label="Difficulty" value={exercise.difficulty} />
-            <InformationRow label="Equipment" value={exercise.equipment} />
+            <InformationRow label="Difficulty" value={difficultyLabel} />
+            <InformationRow label="Equipment" value={equipmentLabel} />
           </View>
         </ThemedView>
 

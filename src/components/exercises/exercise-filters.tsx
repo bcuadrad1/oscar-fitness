@@ -5,6 +5,7 @@ import { Spacing } from '@/constants/theme';
 import {
   EXERCISE_BODY_AREA_FILTERS,
   EXERCISE_DIFFICULTY_FILTERS,
+  getExerciseDifficultyLabel,
   type ExerciseBodyAreaFilter,
   type ExerciseDifficultyFilter,
 } from '@/features/exercises/exercise-types';
@@ -66,6 +67,7 @@ export function ExerciseFilters({
         values={EXERCISE_DIFFICULTY_FILTERS}
         selectedValue={difficulty}
         onChange={onDifficultyChange}
+        getLabel={getExerciseDifficultyLabel}
       />
     </View>
   );
@@ -76,6 +78,7 @@ type FilterGroupProps<T extends string> = {
   values: readonly T[];
   selectedValue: T;
   onChange: (value: T) => void;
+  getLabel?: (value: T) => string;
 };
 
 function FilterGroup<T extends string>({
@@ -83,6 +86,7 @@ function FilterGroup<T extends string>({
   values,
   selectedValue,
   onChange,
+  getLabel = (value) => value,
 }: FilterGroupProps<T>) {
   const theme = useTheme();
 
@@ -92,11 +96,12 @@ function FilterGroup<T extends string>({
       <View style={styles.filterRow}>
         {values.map((value) => {
           const isSelected = value === selectedValue;
+          const valueLabel = getLabel(value);
           return (
             <Pressable
               key={value}
               accessibilityRole="radio"
-              accessibilityLabel={`${value} ${label.toLowerCase()} filter`}
+              accessibilityLabel={`${valueLabel} ${label.toLowerCase()} filter`}
               accessibilityState={{ checked: isSelected }}
               aria-checked={isSelected}
               onPress={() => onChange(value)}
@@ -109,7 +114,7 @@ function FilterGroup<T extends string>({
                 pressed && styles.pressed,
               ]}>
               <ThemedText type="smallBold" themeColor={isSelected ? 'text' : 'textSecondary'}>
-                {value}
+                {valueLabel}
               </ThemedText>
             </Pressable>
           );

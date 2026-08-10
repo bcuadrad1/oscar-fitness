@@ -1,4 +1,7 @@
-import type { Exercise } from '@/features/exercises/exercise-types';
+import {
+  defineExerciseCatalog,
+  type Exercise,
+} from '@/features/exercises/exercise-types';
 
 export interface ExerciseRepository {
   listExercises(): Promise<readonly Exercise[]>;
@@ -8,14 +11,16 @@ export interface ExerciseRepository {
 const DEVELOPMENT_VIDEO_URL =
   'https://www.w3schools.com/html/mov_bbb.mp4';
 
-const EXERCISES = [
+const EXERCISES = defineExerciseCatalog([
   {
     id: 'bodyweight-squat',
     name: 'Bodyweight Squat',
     targetBodyArea: 'Lower body',
     category: 'Strength',
-    difficulty: 'Beginner',
-    equipment: 'Bodyweight / no equipment',
+    primaryBodyPartId: 'quadriceps',
+    secondaryBodyPartIds: ['glutes', 'hamstrings', 'core'],
+    difficulty: 'beginner',
+    equipmentIds: ['bodyweight'],
     description: 'A controlled lower-body pattern for practicing a stable sit-to-stand movement.',
     instructions: [
       'Stand with feet about shoulder-width apart and toes turned out slightly.',
@@ -38,8 +43,10 @@ const EXERCISES = [
     name: 'Push-Up',
     targetBodyArea: 'Chest / upper body',
     category: 'Strength',
-    difficulty: 'Intermediate',
-    equipment: 'Bodyweight / no equipment',
+    primaryBodyPartId: 'chest',
+    secondaryBodyPartIds: ['triceps', 'shoulders', 'core'],
+    difficulty: 'beginner',
+    equipmentIds: ['bodyweight'],
     description: 'A bodyweight press for the chest, shoulders, triceps, and trunk.',
     instructions: [
       'Start in a high plank with hands slightly wider than the shoulders and the body in one line.',
@@ -53,7 +60,7 @@ const EXERCISES = [
     },
     video: null,
   },
-] as const satisfies readonly Exercise[];
+] as const satisfies readonly Exercise[]);
 
 class LocalExerciseRepository implements ExerciseRepository {
   listExercises(): Promise<readonly Exercise[]> {
