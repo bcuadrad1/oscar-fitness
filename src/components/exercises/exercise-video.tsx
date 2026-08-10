@@ -81,7 +81,7 @@ function PlayableExerciseVideo({ thumbnail, video, onRetry }: PlayableExerciseVi
     <View style={[styles.frame, { backgroundColor: theme.backgroundElement, borderColor: theme.border }]}>
       <Image
         source={thumbnail.source}
-        alt=""
+        accessibilityLabel={thumbnail.alt}
         contentFit="cover"
         style={StyleSheet.absoluteFill}
       />
@@ -134,7 +134,12 @@ function MediaState({
       accessibilityRole={alert ? 'alert' : 'summary'}
       accessibilityLiveRegion="polite"
       style={[styles.frame, { backgroundColor: theme.backgroundElement, borderColor: theme.border }]}>
-      <Image source={thumbnail.source} alt={thumbnail.alt} contentFit="cover" style={styles.stateImage} />
+      <Image
+        source={thumbnail.source}
+        accessibilityLabel={thumbnail.alt}
+        contentFit="cover"
+        style={styles.stateImage}
+      />
       <View style={[styles.statePanel, { backgroundColor: theme.backgroundElement }]}>
         <ThemedText type="smallBold">{title}</ThemedText>
         <ThemedText type="small" themeColor="textSecondary">

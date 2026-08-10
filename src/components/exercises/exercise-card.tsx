@@ -43,7 +43,7 @@ export function ExerciseCard({ exercise, onPress }: ExerciseCardProps) {
         ) : (
           <Image
             source={exercise.thumbnail.source}
-            alt={exercise.thumbnail.alt}
+            accessibilityLabel={exercise.thumbnail.alt}
             contentFit="cover"
             transition={150}
             onError={() => setImageFailed(true)}

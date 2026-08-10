@@ -1,0 +1,3182 @@
+{
+  "summary": {
+    "manifestVersion": "0.1-planning",
+    "exerciseCount": 216,
+    "difficultyCounts": {
+      "beginner": 100,
+      "intermediate": 97,
+      "advanced": 19
+    },
+    "primaryBodyPartCounts": {
+      "back": 24,
+      "biceps": 16,
+      "calves": 6,
+      "chest": 22,
+      "core": 35,
+      "forearms": 8,
+      "full-body": 22,
+      "glutes": 6,
+      "hamstrings": 7,
+      "hip-abductors": 2,
+      "hip-adductors": 2,
+      "quadriceps": 20,
+      "shoulders": 29,
+      "triceps": 17
+    },
+    "requiredEquipmentTaxonomyAdditions": [
+      "ab-wheel",
+      "battle-rope",
+      "landmine",
+      "medicine-ball",
+      "platform-box",
+      "sled",
+      "stability-ball",
+      "suspension-trainer",
+      "weight-plate"
+    ],
+    "futureRoutinePrescriptionRequirements": [
+      "distance",
+      "distanceUnit: meters | feet",
+      "weight display: kg | lb with conversion"
+    ],
+    "mediaStrategy": "Reuse current placeholder thumbnail and bunny video until dedicated media work."
+  },
+  "exercises": [
+    {
+      "id": "push-up",
+      "name": "Push-Up",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": "incline-push-up"
+    },
+    {
+      "id": "bent-knee-push-up",
+      "name": "Bent-Knee Push-Up",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": "push-up",
+      "regression": null
+    },
+    {
+      "id": "incline-push-up",
+      "name": "Incline Push-Up",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight",
+        "bench"
+      ],
+      "progression": "push-up",
+      "regression": null
+    },
+    {
+      "id": "decline-push-up",
+      "name": "Decline Push-Up",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight",
+        "bench"
+      ],
+      "progression": "weighted-push-up",
+      "regression": "push-up"
+    },
+    {
+      "id": "weighted-push-up",
+      "name": "Weighted Push-Up",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "bodyweight",
+        "weight-plate"
+      ],
+      "progression": null,
+      "regression": "push-up"
+    },
+    {
+      "id": "barbell-bench-press",
+      "name": "Barbell Bench Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-bench-press",
+      "name": "Dumbbell Bench Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-chest-press",
+      "name": "Machine Chest Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "smith-machine-bench-press",
+      "name": "Smith Machine Bench Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "smith-machine",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "incline-dumbbell-press",
+      "name": "Incline Dumbbell Press",
+      "primary": "chest",
+      "secondary": [
+        "shoulders",
+        "triceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "incline-barbell-bench-press",
+      "name": "Incline Barbell Bench Press",
+      "primary": "chest",
+      "secondary": [
+        "shoulders",
+        "triceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "incline-machine-chest-press",
+      "name": "Incline Machine Chest Press",
+      "primary": "chest",
+      "secondary": [
+        "shoulders",
+        "triceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-chest-fly",
+      "name": "Dumbbell Chest Fly",
+      "primary": "chest",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-chest-fly",
+      "name": "Cable Chest Fly",
+      "primary": "chest",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "pec-deck-machine-fly",
+      "name": "Pec Deck / Machine Fly",
+      "primary": "chest",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-crossover",
+      "name": "Cable Crossover",
+      "primary": "chest",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "chest-dip",
+      "name": "Chest Dip",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-pullover",
+      "name": "Dumbbell Pullover",
+      "primary": "chest",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "decline-barbell-bench-press",
+      "name": "Decline Barbell Bench Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "decline-dumbbell-bench-press",
+      "name": "Decline Dumbbell Bench Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-lat-pulldown",
+      "name": "Seated Lat Pulldown",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "wide-grip-lat-pulldown",
+      "name": "Wide-Grip Lat Pulldown",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "close-grip-lat-pulldown",
+      "name": "Close-Grip Lat Pulldown",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-lat-pulldown",
+      "name": "Single-Arm Lat Pulldown",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "straight-arm-pulldown",
+      "name": "Straight-Arm Pulldown",
+      "primary": "back",
+      "secondary": [
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-cable-row",
+      "name": "Seated Cable Row",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-row-machine",
+      "name": "Seated Row Machine",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "chest-supported-row-machine",
+      "name": "Chest-Supported Row Machine",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "high-row-machine",
+      "name": "High Row Machine",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "one-arm-dumbbell-row",
+      "name": "One-Arm Dumbbell Row",
+      "primary": "back",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "chest-supported-dumbbell-row",
+      "name": "Chest-Supported Dumbbell Row",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-bent-over-row",
+      "name": "Barbell Bent-Over Row",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "smith-machine-bent-over-row",
+      "name": "Smith Machine Bent-Over Row",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "smith-machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "t-bar-row",
+      "name": "T-Bar Row",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-high-row",
+      "name": "Cable High Row",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "pull-up",
+      "name": "Pull-Up",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": "weighted-pull-up",
+      "regression": "assisted-pull-up"
+    },
+    {
+      "id": "chin-up",
+      "name": "Chin-Up",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "assisted-pull-up",
+      "name": "Assisted Pull-Up",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": "pull-up",
+      "regression": null
+    },
+    {
+      "id": "weighted-pull-up",
+      "name": "Weighted Pull-Up",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station",
+        "weight-plate"
+      ],
+      "progression": null,
+      "regression": "pull-up"
+    },
+    {
+      "id": "cable-reverse-fly",
+      "name": "Cable Reverse Fly",
+      "primary": "shoulders",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "reverse-pec-deck",
+      "name": "Reverse Pec Deck",
+      "primary": "shoulders",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "incline-dumbbell-reverse-fly",
+      "name": "Incline Dumbbell Reverse Fly",
+      "primary": "shoulders",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-deadlift",
+      "name": "Barbell Deadlift",
+      "primary": "back",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Romanian Deadlift",
+      "primary": "hamstrings",
+      "secondary": [
+        "glutes",
+        "back",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": "dumbbell-romanian-deadlift"
+    },
+    {
+      "id": "dumbbell-romanian-deadlift",
+      "name": "Dumbbell Romanian Deadlift",
+      "primary": "hamstrings",
+      "secondary": [
+        "glutes",
+        "back",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": "romanian-deadlift",
+      "regression": null
+    },
+    {
+      "id": "back-extension",
+      "name": "Back Extension",
+      "primary": "back",
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-shrug",
+      "name": "Dumbbell Shrug",
+      "primary": "back",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-shrug",
+      "name": "Barbell Shrug",
+      "primary": "back",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "bodyweight-squat",
+      "name": "Bodyweight Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": "goblet-squat",
+      "regression": null
+    },
+    {
+      "id": "goblet-squat",
+      "name": "Goblet Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": "barbell-back-squat",
+      "regression": "bodyweight-squat"
+    },
+    {
+      "id": "dumbbell-squat",
+      "name": "Dumbbell Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-back-squat",
+      "name": "Barbell Back Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": "goblet-squat"
+    },
+    {
+      "id": "barbell-front-squat",
+      "name": "Barbell Front Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "smith-machine-squat",
+      "name": "Smith Machine Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "smith-machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hack-squat",
+      "name": "Hack Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "hip-adductors"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": "single-leg-press",
+      "regression": null
+    },
+    {
+      "id": "single-leg-press",
+      "name": "Single-Leg Press",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": "leg-press"
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg Extension",
+      "primary": "quadriceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": "Bulgarian Split Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "split-squat",
+      "name": "Split Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "forward-lunge",
+      "name": "Forward Lunge",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "Reverse Lunge",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "walking-lunge",
+      "name": "Walking Lunge",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "step-up",
+      "name": "Step-Up",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "platform-box"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-leg-romanian-deadlift",
+      "name": "Single-Leg Romanian Deadlift",
+      "primary": "hamstrings",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-leg-curl",
+      "name": "Seated Leg Curl",
+      "primary": "hamstrings",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "lying-leg-curl",
+      "name": "Lying Leg Curl",
+      "primary": "hamstrings",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "standing-single-leg-curl",
+      "name": "Standing Single-Leg Curl",
+      "primary": "hamstrings",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "nordic-hamstring-curl",
+      "name": "Nordic Hamstring Curl",
+      "primary": "hamstrings",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "bodyweight",
+        "other"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hip-thrust",
+      "name": "Hip Thrust",
+      "primary": "glutes",
+      "secondary": [
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": "glute-bridge"
+    },
+    {
+      "id": "smith-machine-hip-thrust",
+      "name": "Smith Machine Hip Thrust",
+      "primary": "glutes",
+      "secondary": [
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "smith-machine",
+        "bench"
+      ],
+      "progression": null,
+      "regression": "glute-bridge"
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Glute Bridge",
+      "primary": "glutes",
+      "secondary": [
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": "hip-thrust",
+      "regression": null
+    },
+    {
+      "id": "cable-pull-through",
+      "name": "Cable Pull-Through",
+      "primary": "glutes",
+      "secondary": [
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-glute-kickback",
+      "name": "Cable Glute Kickback",
+      "primary": "glutes",
+      "secondary": [
+        "hamstrings"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-glute-kickback",
+      "name": "Machine Glute Kickback",
+      "primary": "glutes",
+      "secondary": [
+        "hamstrings"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hip-abduction-machine",
+      "name": "Hip Abduction Machine",
+      "primary": "hip-abductors",
+      "secondary": [
+        "glutes"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-hip-abduction",
+      "name": "Cable Hip Abduction",
+      "primary": "hip-abductors",
+      "secondary": [
+        "glutes"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hip-adduction-machine",
+      "name": "Hip Adduction Machine",
+      "primary": "hip-adductors",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-hip-adduction",
+      "name": "Cable Hip Adduction",
+      "primary": "hip-adductors",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "Standing Calf Raise",
+      "primary": "calves",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-calf-raise",
+      "name": "Seated Calf Raise",
+      "primary": "calves",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "smith-machine-calf-raise",
+      "name": "Smith Machine Calf Raise",
+      "primary": "calves",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "smith-machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-calf-raise",
+      "name": "Dumbbell Calf Raise",
+      "primary": "calves",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-leg-calf-raise",
+      "name": "Single-Leg Calf Raise",
+      "primary": "calves",
+      "secondary": [
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "leg-press-calf-raise",
+      "name": "Leg Press Calf Raise",
+      "primary": "calves",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-dumbbell-shoulder-press",
+      "name": "Seated Dumbbell Shoulder Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "standing-dumbbell-shoulder-press",
+      "name": "Standing Dumbbell Shoulder Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-overhead-press",
+      "name": "Barbell Overhead Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-barbell-shoulder-press",
+      "name": "Seated Barbell Shoulder Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "smith-machine-shoulder-press",
+      "name": "Smith Machine Shoulder Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "smith-machine",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-shoulder-press",
+      "name": "Machine Shoulder Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "arnold-press",
+      "name": "Arnold Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-dumbbell-shoulder-press",
+      "name": "Single-Arm Dumbbell Shoulder Press",
+      "primary": "shoulders",
+      "secondary": [
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "name": "Dumbbell Lateral Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-lateral-raise",
+      "name": "Cable Lateral Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-cable-lateral-raise",
+      "name": "Single-Arm Cable Lateral Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-lateral-raise",
+      "name": "Machine Lateral Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-front-raise",
+      "name": "Dumbbell Front Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-front-raise",
+      "name": "Cable Front Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "plate-front-raise",
+      "name": "Plate Front Raise",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "weight-plate"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-rear-delt-fly",
+      "name": "Dumbbell Rear Delt Fly",
+      "primary": "shoulders",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "face-pull",
+      "name": "Face Pull",
+      "primary": "shoulders",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-external-rotation",
+      "name": "Cable External Rotation",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "resistance-band-external-rotation",
+      "name": "Resistance Band External Rotation",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "resistance-band"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-external-rotation",
+      "name": "Dumbbell External Rotation",
+      "primary": "shoulders",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "upright-row",
+      "name": "Upright Row",
+      "primary": "shoulders",
+      "secondary": [
+        "back",
+        "biceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-upright-row",
+      "name": "Cable Upright Row",
+      "primary": "shoulders",
+      "secondary": [
+        "back",
+        "biceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-upright-row",
+      "name": "Dumbbell Upright Row",
+      "primary": "shoulders",
+      "secondary": [
+        "back",
+        "biceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "landmine-press",
+      "name": "Landmine Press",
+      "primary": "shoulders",
+      "secondary": [
+        "chest",
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "landmine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-landmine-press",
+      "name": "Single-Arm Landmine Press",
+      "primary": "shoulders",
+      "secondary": [
+        "chest",
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "landmine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-biceps-curl",
+      "name": "Dumbbell Biceps Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "alternating-dumbbell-curl",
+      "name": "Alternating Dumbbell Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-dumbbell-curl",
+      "name": "Seated Dumbbell Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-biceps-curl",
+      "name": "Barbell Biceps Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "ez-bar-curl",
+      "name": "EZ-Bar Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Hammer Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cross-body-hammer-curl",
+      "name": "Cross-Body Hammer Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "incline-dumbbell-curl",
+      "name": "Incline Dumbbell Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "concentration-curl",
+      "name": "Concentration Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "preacher-curl",
+      "name": "Preacher Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-preacher-curl",
+      "name": "Dumbbell Preacher Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-biceps-curl",
+      "name": "Cable Biceps Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-cable-curl",
+      "name": "Single-Arm Cable Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "rope-hammer-curl",
+      "name": "Rope Hammer Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "high-cable-curl",
+      "name": "High Cable Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-biceps-curl",
+      "name": "Machine Biceps Curl",
+      "primary": "biceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-triceps-pushdown",
+      "name": "Cable Triceps Pushdown",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "rope-triceps-pushdown",
+      "name": "Rope Triceps Pushdown",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "reverse-grip-triceps-pushdown",
+      "name": "Reverse-Grip Triceps Pushdown",
+      "primary": "triceps",
+      "secondary": [
+        "forearms"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-cable-pushdown",
+      "name": "Single-Arm Cable Pushdown",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "overhead-cable-triceps-extension",
+      "name": "Overhead Cable Triceps Extension",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-overhead-triceps-extension",
+      "name": "Dumbbell Overhead Triceps Extension",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "single-arm-dumbbell-overhead-extension",
+      "name": "Single-Arm Dumbbell Overhead Extension",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-triceps-kickback",
+      "name": "Dumbbell Triceps Kickback",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-skull-crusher",
+      "name": "Lying Barbell Triceps Extension / Skull Crusher",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-skull-crusher",
+      "name": "Dumbbell Skull Crusher",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "close-grip-bench-press",
+      "name": "Close-Grip Bench Press",
+      "primary": "triceps",
+      "secondary": [
+        "chest",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-triceps-extension",
+      "name": "Machine Triceps Extension",
+      "primary": "triceps",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "assisted-dip",
+      "name": "Assisted Dip",
+      "primary": "triceps",
+      "secondary": [
+        "chest",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": "triceps-dip",
+      "regression": null
+    },
+    {
+      "id": "bench-dip",
+      "name": "Bench Dip",
+      "primary": "triceps",
+      "secondary": [
+        "chest",
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "triceps-dip",
+      "name": "Triceps Dip",
+      "primary": "triceps",
+      "secondary": [
+        "chest",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": "weighted-dip",
+      "regression": "assisted-dip"
+    },
+    {
+      "id": "weighted-dip",
+      "name": "Weighted Dip",
+      "primary": "triceps",
+      "secondary": [
+        "chest",
+        "shoulders"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station",
+        "weight-plate"
+      ],
+      "progression": null,
+      "regression": "triceps-dip"
+    },
+    {
+      "id": "diamond-push-up",
+      "name": "Diamond Push-Up",
+      "primary": "triceps",
+      "secondary": [
+        "chest",
+        "shoulders",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-wrist-curl",
+      "name": "Dumbbell Wrist Curl",
+      "primary": "forearms",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-reverse-wrist-curl",
+      "name": "Dumbbell Reverse Wrist Curl",
+      "primary": "forearms",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-wrist-curl",
+      "name": "Barbell Wrist Curl",
+      "primary": "forearms",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-reverse-wrist-curl",
+      "name": "Barbell Reverse Wrist Curl",
+      "primary": "forearms",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "reverse-barbell-curl",
+      "name": "Reverse Barbell Curl",
+      "primary": "forearms",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "reverse-dumbbell-curl",
+      "name": "Reverse Dumbbell Curl",
+      "primary": "forearms",
+      "secondary": [
+        "biceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "farmers-carry",
+      "name": "Farmer's Carry",
+      "primary": "full-body",
+      "secondary": [
+        "forearms",
+        "core",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dead-hang",
+      "name": "Dead Hang",
+      "primary": "forearms",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "plate-pinch-hold",
+      "name": "Plate Pinch Hold",
+      "primary": "forearms",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "weight-plate"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "crunch",
+      "name": "Crunch",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "Reverse Crunch",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "bicycle-crunch",
+      "name": "Bicycle Crunch",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "sit-up",
+      "name": "Sit-Up",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "decline-sit-up",
+      "name": "Decline Sit-Up",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bench"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "machine-ab-crunch",
+      "name": "Machine Ab Crunch",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "machine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-crunch",
+      "name": "Cable Crunch",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "front-plank",
+      "name": "Front Plank",
+      "primary": "core",
+      "secondary": [
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "side-plank",
+      "name": "Side Plank",
+      "primary": "core",
+      "secondary": [
+        "glutes"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "plank-shoulder-tap",
+      "name": "Plank Shoulder Tap",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "plank-hip-dip",
+      "name": "Plank Hip Dip",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dead-bug",
+      "name": "Dead Bug",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "bird-dog",
+      "name": "Bird Dog",
+      "primary": "core",
+      "secondary": [
+        "back",
+        "glutes"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hollow-body-hold",
+      "name": "Hollow Body Hold",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "v-up",
+      "name": "V-Up",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "toe-touch-crunch",
+      "name": "Toe Touch Crunch",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "lying-leg-raise",
+      "name": "Lying Leg Raise",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "hanging-knee-raise",
+      "name": "Hanging Knee Raise",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": "hanging-leg-raise",
+      "regression": null
+    },
+    {
+      "id": "hanging-leg-raise",
+      "name": "Hanging Leg Raise",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": null,
+      "regression": "hanging-knee-raise"
+    },
+    {
+      "id": "captains-chair-knee-raise",
+      "name": "Captain's Chair Knee Raise",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "bodyweight",
+        "pull-up-dip-station"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "ab-wheel-rollout",
+      "name": "Ab Wheel Rollout",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "ab-wheel"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-rollout",
+      "name": "Barbell Rollout",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "pallof-press",
+      "name": "Pallof Press",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "half-kneeling-pallof-press",
+      "name": "Half-Kneeling Pallof Press",
+      "primary": "core",
+      "secondary": [
+        "glutes"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-wood-chop",
+      "name": "Cable Wood Chop",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "cable-low-to-high-chop",
+      "name": "Cable Lift / Low-to-High Chop",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "cable"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "russian-twist",
+      "name": "Russian Twist",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "weighted-russian-twist",
+      "name": "Weighted Russian Twist",
+      "primary": "core",
+      "secondary": [
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "weight-plate"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "seated-medicine-ball-rotation",
+      "name": "Seated Medicine Ball Rotation",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "medicine-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "standing-medicine-ball-trunk-rotation",
+      "name": "Standing Medicine Ball Trunk Rotation",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "intermediate",
+      "equipment": [
+        "medicine-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "suitcase-carry",
+      "name": "Suitcase Carry",
+      "primary": "core",
+      "secondary": [
+        "forearms",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "stability-ball-crunch",
+      "name": "Stability Ball Crunch",
+      "primary": "core",
+      "secondary": [],
+      "difficulty": "beginner",
+      "equipment": [
+        "stability-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "stability-ball-rollout",
+      "name": "Stability Ball Rollout",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "stability-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "mountain-climber",
+      "name": "Mountain Climber",
+      "primary": "core",
+      "secondary": [
+        "shoulders",
+        "quadriceps",
+        "hip-flexors"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "burpee",
+      "name": "Burpee",
+      "primary": "full-body",
+      "secondary": [
+        "chest",
+        "shoulders",
+        "quadriceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "bear-crawl",
+      "name": "Bear Crawl",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "core",
+        "quadriceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "bodyweight"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-thruster",
+      "name": "Dumbbell Thruster",
+      "primary": "full-body",
+      "secondary": [
+        "quadriceps",
+        "glutes",
+        "shoulders",
+        "triceps"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "barbell-thruster",
+      "name": "Barbell Thruster",
+      "primary": "full-body",
+      "secondary": [
+        "quadriceps",
+        "glutes",
+        "shoulders",
+        "triceps"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "barbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-clean-and-press",
+      "name": "Dumbbell Clean and Press",
+      "primary": "full-body",
+      "secondary": [
+        "quadriceps",
+        "glutes",
+        "shoulders",
+        "back",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "kettlebell-clean-and-press",
+      "name": "Kettlebell Clean and Press",
+      "primary": "full-body",
+      "secondary": [
+        "quadriceps",
+        "glutes",
+        "shoulders",
+        "back",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "kettlebell-swing",
+      "name": "Kettlebell Swing",
+      "primary": "full-body",
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "kettlebell-goblet-squat",
+      "name": "Kettlebell Goblet Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "turkish-get-up",
+      "name": "Turkish Get-Up",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "core",
+        "glutes"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": null,
+      "regression": "half-turkish-get-up"
+    },
+    {
+      "id": "half-turkish-get-up",
+      "name": "Half Turkish Get-Up",
+      "primary": "full-body",
+      "secondary": [
+        "core",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": "turkish-get-up",
+      "regression": null
+    },
+    {
+      "id": "kettlebell-figure-eight",
+      "name": "Kettlebell Figure Eight",
+      "primary": "full-body",
+      "secondary": [
+        "core",
+        "glutes",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "kettlebell-halo",
+      "name": "Kettlebell Halo",
+      "primary": "shoulders",
+      "secondary": [
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "kettlebell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "landmine-thruster",
+      "name": "Landmine Thruster",
+      "primary": "full-body",
+      "secondary": [
+        "quadriceps",
+        "glutes",
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "barbell",
+        "landmine"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "renegade-row",
+      "name": "Renegade Row",
+      "primary": "full-body",
+      "secondary": [
+        "back",
+        "core",
+        "shoulders",
+        "biceps"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "dumbbell-devil-press",
+      "name": "Dumbbell Devil Press",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "chest",
+        "quadriceps",
+        "glutes",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "man-maker",
+      "name": "Man Maker",
+      "primary": "full-body",
+      "secondary": [
+        "chest",
+        "back",
+        "shoulders",
+        "quadriceps",
+        "core"
+      ],
+      "difficulty": "advanced",
+      "equipment": [
+        "dumbbell"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "battle-rope-alternating-waves",
+      "name": "Battle Rope Alternating Waves",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "biceps",
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "battle-rope"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "battle-rope-double-waves",
+      "name": "Battle Rope Double Waves",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "biceps",
+        "triceps",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "battle-rope"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "battle-rope-slams",
+      "name": "Battle Rope Slams",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "back",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "battle-rope"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "medicine-ball-slam",
+      "name": "Medicine Ball Slam",
+      "primary": "full-body",
+      "secondary": [
+        "core",
+        "shoulders",
+        "back"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "medicine-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "medicine-ball-chest-pass",
+      "name": "Medicine Ball Chest Pass",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "medicine-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "medicine-ball-overhead-throw",
+      "name": "Medicine Ball Overhead Throw",
+      "primary": "full-body",
+      "secondary": [
+        "shoulders",
+        "core",
+        "back"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "medicine-ball"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "box-jump",
+      "name": "Box Jump",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes",
+        "calves"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "platform-box"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "lateral-box-step-up",
+      "name": "Lateral Box Step-Up",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "platform-box"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "sled-push",
+      "name": "Sled Push",
+      "primary": "full-body",
+      "secondary": [
+        "quadriceps",
+        "glutes",
+        "calves",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "sled"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "sled-pull",
+      "name": "Sled Pull",
+      "primary": "full-body",
+      "secondary": [
+        "back",
+        "quadriceps",
+        "glutes",
+        "core"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "sled"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "trx-row",
+      "name": "TRX Row",
+      "primary": "back",
+      "secondary": [
+        "biceps",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "suspension-trainer"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "trx-chest-press",
+      "name": "TRX Chest Press",
+      "primary": "chest",
+      "secondary": [
+        "triceps",
+        "core"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "suspension-trainer"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "trx-squat",
+      "name": "TRX Squat",
+      "primary": "quadriceps",
+      "secondary": [
+        "glutes"
+      ],
+      "difficulty": "beginner",
+      "equipment": [
+        "suspension-trainer"
+      ],
+      "progression": null,
+      "regression": null
+    },
+    {
+      "id": "trx-fallout",
+      "name": "TRX Fallout",
+      "primary": "core",
+      "secondary": [
+        "shoulders"
+      ],
+      "difficulty": "intermediate",
+      "equipment": [
+        "suspension-trainer"
+      ],
+      "progression": null,
+      "regression": null
+    }
+  ]
+}
