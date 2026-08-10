@@ -64,6 +64,15 @@ export type ExerciseEquipmentId =
   | 'resistance-band'
   | 'bench'
   | 'pull-up-dip-station'
+  | 'ab-wheel'
+  | 'battle-rope'
+  | 'landmine'
+  | 'medicine-ball'
+  | 'platform-box'
+  | 'sled'
+  | 'stability-ball'
+  | 'suspension-trainer'
+  | 'weight-plate'
   | 'other';
 
 export const EXERCISE_EQUIPMENT = {
@@ -77,6 +86,15 @@ export const EXERCISE_EQUIPMENT = {
   'resistance-band': { label: 'Resistance band' },
   bench: { label: 'Bench' },
   'pull-up-dip-station': { label: 'Pull-up / dip station' },
+  'ab-wheel': { label: 'Ab wheel' },
+  'battle-rope': { label: 'Battle rope' },
+  landmine: { label: 'Landmine' },
+  'medicine-ball': { label: 'Medicine ball' },
+  'platform-box': { label: 'Platform / box' },
+  sled: { label: 'Sled' },
+  'stability-ball': { label: 'Stability ball' },
+  'suspension-trainer': { label: 'Suspension trainer' },
+  'weight-plate': { label: 'Weight plate' },
   other: { label: 'Other' },
 } as const satisfies Record<ExerciseEquipmentId, ExerciseTaxonomyEntry>;
 
