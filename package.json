@@ -37,6 +37,8 @@
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
+    "generate:exercise-catalog": "node ./scripts/generate-exercise-catalog.mjs",
+    "check:exercise-catalog": "node ./scripts/verify-exercise-catalog.mjs",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",

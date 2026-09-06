@@ -1,0 +1,146 @@
+{
+  "hip-thrust": {
+    "description": "A bench-supported hip extension that develops the glutes through a strong horizontal drive.",
+    "instructions": [
+      "Sit with your upper back against a bench, feet flat, and the padded bar centered across your hip crease.",
+      "Brace your trunk and drive through your feet as your upper back pivots on the bench and your hips rise.",
+      "Finish with hips extended and shins nearly vertical, then lower your hips smoothly toward the floor.",
+      "Keep your knees tracking over your toes and avoid arching your lower back at the top."
+    ]
+  },
+  "smith-machine-hip-thrust": {
+    "description": "A fixed-bar hip thrust that trains powerful glute extension along a guided path.",
+    "instructions": [
+      "Place a bench behind the Smith bar, rest your upper back on it, and position the padded bar across your hip crease.",
+      "Set your feet flat, release the hooks, and drive the bar upward by extending your hips without pushing the bench backward.",
+      "Squeeze your glutes when your torso is level, then lower the bar under control and re-rack it when finished.",
+      "Keep your ribs down, chin tucked, and knees aligned with your feet throughout the guided path."
+    ]
+  },
+  "glute-bridge": {
+    "description": "A floor-based hip extension that isolates the glutes with a stable bodyweight position.",
+    "instructions": [
+      "Lie on your back with knees bent, feet flat near your hips, and arms resting beside you.",
+      "Brace your midsection and press through your feet to lift your pelvis while your shoulders stay grounded.",
+      "Squeeze your glutes when shoulders, hips, and knees form a line, then lower until your hips touch down softly.",
+      "Keep your knees from collapsing inward and do not finish by overextending your lower back."
+    ]
+  },
+  "cable-pull-through": {
+    "description": "A cable-resisted hip hinge that keeps tension on the glutes as the hips move backward and forward.",
+    "instructions": [
+      "Face away from a low pulley, straddle the rope attachment, and step forward with the rope held between your legs.",
+      "Soften your knees and push your hips back while the cable travels between your thighs and your spine stays neutral.",
+      "Drive your hips forward to stand tall, squeeze your glutes, and reverse the hinge under control.",
+      "Let your arms act as straps and avoid turning the finish into a backward lean."
+    ]
+  },
+  "cable-glute-kickback": {
+    "description": "A standing cable hip extension that targets one glute at a time with continuous resistance.",
+    "instructions": [
+      "Attach an ankle cuff to a low pulley, face the stack, and hold the frame while standing firmly on the free leg.",
+      "With a soft working knee, sweep the cuffed leg backward in a controlled arc without swinging your torso.",
+      "Stop when the glute is fully shortened, then guide the leg forward until it returns beneath your hip.",
+      "Keep both hip bones facing the stack and avoid using your lower back to gain extra range."
+    ]
+  },
+  "machine-glute-kickback": {
+    "description": "A supported single-leg hip extension that directs the machine's resistance into the glutes.",
+    "instructions": [
+      "Settle your torso against the support, grip the handles, and place one foot securely on the working plate.",
+      "Brace against the pad and press the plate backward by extending your hip at a steady pace.",
+      "Finish with a firm glute squeeze before allowing the plate to return smoothly to the start.",
+      "Keep your pelvis square to the machine and do not twist or arch to move the plate farther."
+    ]
+  },
+  "hip-abduction-machine": {
+    "description": "A seated outward hip movement that trains the abductors and side glutes against machine resistance.",
+    "instructions": [
+      "Sit with your back supported, feet on the rests, and the outside of each thigh against its pad.",
+      "Press your knees apart in a smooth arc while keeping your hips centered on the seat.",
+      "Pause at your controlled outer range, then let the pads return inward without touching abruptly.",
+      "Keep your torso still and resist bouncing or forcing your knees beyond a comfortable path."
+    ]
+  },
+  "cable-hip-abduction": {
+    "description": "A standing single-leg abduction that challenges the outer hip against a low cable's pull.",
+    "instructions": [
+      "Stand side-on to a low pulley with the cuff on the ankle farthest from the stack and hold the frame for balance.",
+      "Keep the working leg long and sweep it sideways away from the pulley without shifting your trunk.",
+      "Pause before your pelvis tilts, then guide the leg back across the cable's pull to the start.",
+      "Point your hips forward and keep the stance knee soft so the outer hip drives the motion."
+    ]
+  },
+  "hip-adduction-machine": {
+    "description": "A seated inward hip movement that isolates the inner thighs through a controlled machine arc.",
+    "instructions": [
+      "Sit upright with your back supported, feet on the rests, and the inside of each thigh against its pad.",
+      "Draw your knees toward each other smoothly while keeping your hips and back in contact with the seat.",
+      "Pause as the pads come together, then reopen your legs slowly to the starting position.",
+      "Keep both sides moving evenly and avoid bouncing out of the open position."
+    ]
+  },
+  "cable-hip-adduction": {
+    "description": "A standing cable adduction that trains one inner thigh as the leg crosses toward the midline.",
+    "instructions": [
+      "Stand side-on to a low pulley, cuff the ankle nearest the stack, and hold a stable support with the opposite hand.",
+      "Keep the cuffed leg long and sweep it inward across the front of your stance leg without rotating your hips.",
+      "Pause at the inward finish, then guide the leg back toward the pulley under steady control.",
+      "Stay tall over the stance foot and keep its knee soft rather than leaning away from the cable."
+    ]
+  },
+  "standing-calf-raise": {
+    "description": "A straight-leg machine raise that trains the calves through controlled ankle extension.",
+    "instructions": [
+      "Place your shoulders under the pads and the balls of your feet on the platform with your heels free to move.",
+      "Stand tall with softly extended knees and press through your forefeet to raise your heels smoothly.",
+      "Pause high on your toes, then lower your heels under control through the available platform range.",
+      "Keep your ankles tracking over your feet and avoid bouncing from the bottom position."
+    ]
+  },
+  "seated-calf-raise": {
+    "description": "A bent-knee calf raise that emphasizes the lower calf while the thighs remain secured.",
+    "instructions": [
+      "Sit with the balls of your feet on the platform, heels free, and the thigh pad secured just above your knees.",
+      "Press through your forefeet to lift your heels while your knees remain fixed beneath the pad.",
+      "Hold the top briefly, then lower your heels slowly before beginning the next raise.",
+      "Keep your feet aligned with your knees and avoid rocking your torso to move the lever."
+    ]
+  },
+  "smith-machine-calf-raise": {
+    "description": "A guided standing calf raise that allows focused ankle movement beneath a fixed bar path.",
+    "instructions": [
+      "Set the Smith bar across your upper back, stand with feet hip-width, and balance the bar over your midfoot.",
+      "Unrack the bar, keep your legs long with soft knees, and rise onto your toes in a smooth vertical path.",
+      "Pause at full ankle extension, then lower your heels gently to the floor and re-rack after the set.",
+      "Keep your ankles upright and avoid bouncing or leaning into the guided bar."
+    ]
+  },
+  "dumbbell-calf-raise": {
+    "description": "A free-weight standing raise that strengthens the calves while demanding steady balance.",
+    "instructions": [
+      "Stand tall with feet hip-width, a dumbbell at each side, and your weight balanced across both forefeet.",
+      "Press through the balls of your feet to raise both heels together without bending your knees for momentum.",
+      "Pause on your toes, then lower both heels gently to the floor before repeating.",
+      "Keep your ankles upright and your torso stacked rather than swaying the dumbbells."
+    ]
+  },
+  "single-leg-calf-raise": {
+    "description": "A unilateral bodyweight raise that builds calf strength and ankle control on each side.",
+    "instructions": [
+      "Stand on one foot beside a stable support, lift the other foot clear, and balance over the working forefoot.",
+      "Press through the ball of the standing foot to raise your heel while keeping the working leg steady.",
+      "Pause at the top, then lower the heel slowly to the starting level before the next repetition.",
+      "Keep the ankle from rolling inward or outward and use the support only to maintain balance."
+    ]
+  },
+  "leg-press-calf-raise": {
+    "description": "A leg-press variation that isolates ankle extension while the torso and hips stay supported.",
+    "instructions": [
+      "Sit securely in the leg press and place the balls of both feet on the lower edge of the sled with heels free.",
+      "Keep your knees softly extended and press the sled away by pointing your ankles without moving your hips.",
+      "Pause with your heels raised, then let them travel back under control as your ankles flex.",
+      "Maintain full forefoot contact with the platform and do not lock or bend your knees during the raise."
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "goblet-squat": {
+    "description": "A front-held dumbbell squat that trains the quadriceps while encouraging an upright torso.",
+    "instructions": [
+      "Stand with feet about shoulder-width apart and hold one dumbbell vertically against your chest.",
+      "Bend your knees and hips together, lowering between your legs while keeping the dumbbell close.",
+      "Press through your whole feet to stand tall and bring your hips beneath your shoulders.",
+      "Keep your heels planted and guide your knees in the same direction as your toes throughout."
+    ]
+  },
+  "dumbbell-squat": {
+    "description": "A squat performed with dumbbells at the sides for direct quadriceps and lower-body work.",
+    "instructions": [
+      "Stand with a dumbbell in each hand at your sides and set your feet in a comfortable squat stance.",
+      "Lower by bending your knees and hips, letting the dumbbells travel straight beside your legs.",
+      "Drive the floor away to return to standing, finishing with balanced pressure through both feet.",
+      "Keep your chest steady and prevent the dumbbells from pulling your shoulders or knees out of position."
+    ]
+  },
+  "barbell-back-squat": {
+    "description": "A barbell squat with the bar supported across the upper back, emphasizing the quadriceps and total lower body.",
+    "instructions": [
+      "Set the bar across your upper back, grip it firmly, step clear of the rack, and establish your stance.",
+      "Brace your trunk and descend by bending your hips and knees while keeping the bar over midfoot.",
+      "Push through both feet to rise, extending your knees and hips together before resetting your breath.",
+      "Maintain a stable bar position and track your knees over your toes without letting your heels lift."
+    ]
+  },
+  "barbell-front-squat": {
+    "description": "A front-rack squat that places the bar ahead of the torso and strongly challenges the quadriceps.",
+    "instructions": [
+      "Rest the bar across the fronts of your shoulders, lift your elbows, and stand with feet securely planted.",
+      "Sit down between your legs under control while keeping your elbows high and the bar stacked over midfoot.",
+      "Drive upward through your feet and finish tall without dropping your elbows as you pass the midpoint.",
+      "Keep the bar supported by your shoulders rather than your hands, and stop the descent before your rack position collapses."
+    ]
+  },
+  "smith-machine-squat": {
+    "description": "A guided-bar squat that provides a fixed bar path for focused quadriceps training.",
+    "instructions": [
+      "Position the Smith bar across your upper back, place your feet under the intended bar path, and release the hooks.",
+      "Lower smoothly by bending your knees and hips while the bar follows the machine's vertical track.",
+      "Press through your feet to extend your legs, stand tall, and rotate the bar back onto the hooks when finished.",
+      "Confirm both hooks are clear before each repetition and fully engaged before stepping away."
+    ]
+  },
+  "hack-squat": {
+    "description": "A machine squat with back support and a guided sled, designed to emphasize knee extension and the quadriceps.",
+    "instructions": [
+      "Place your back and shoulders firmly against the pads, set both feet on the platform, and release the stops.",
+      "Bend your knees to lower the sled under control while keeping your hips and back against the support.",
+      "Push the platform away until you return to the start, then reengage the safety stops after the set.",
+      "Keep your knees aligned with your toes and avoid forcefully snapping them straight at the top."
+    ]
+  },
+  "leg-press": {
+    "description": "A supported machine press that trains both legs together through a controlled knee-and-hip bend.",
+    "instructions": [
+      "Sit with your hips and back against the pads and place both feet evenly on the press platform.",
+      "Release the carriage and bend your knees toward your torso without allowing your hips to curl off the seat.",
+      "Press the platform away through both feet and return the carriage to the secure stops after the final repetition.",
+      "Track your knees over your toes and keep them softly extended rather than locked at the top."
+    ]
+  },
+  "single-leg-press": {
+    "description": "A unilateral leg press that isolates each side while the seat supports the torso.",
+    "instructions": [
+      "Set one foot securely on the platform and keep your hips square and your back in full contact with the pad.",
+      "Lower the carriage by bending the working knee toward your torso in a smooth, centered path.",
+      "Press through the working foot to return, complete the side, and switch legs without changing the seat setup.",
+      "Do not let the working knee collapse inward or the opposite side of your pelvis lift from the pad."
+    ]
+  },
+  "leg-extension": {
+    "description": "A seated machine exercise that isolates the quadriceps by extending the knees against the shin pad.",
+    "instructions": [
+      "Adjust the seat so your knees align with the machine pivot and place the roller above your ankles.",
+      "Extend both knees smoothly to raise the pad until your legs are nearly straight.",
+      "Pause with the quadriceps engaged, then lower the pad under control to the bent-knee start.",
+      "Keep your hips against the seat and avoid kicking or rebounding the roller between repetitions."
+    ]
+  },
+  "bulgarian-split-squat": {
+    "description": "A rear-foot-elevated split squat that concentrates the work on the front quadriceps and glute.",
+    "instructions": [
+      "Stand in front of a bench, rest the top of one foot behind you, and hold dumbbells at your sides.",
+      "Lower your rear knee toward the floor as the front knee bends, keeping most of your pressure on the front foot.",
+      "Push through the front foot to return to the split stance, then complete the side before switching legs.",
+      "Choose a stance that keeps the front heel down and prevents the elevated foot from twisting on the bench."
+    ]
+  },
+  "split-squat": {
+    "description": "A stationary staggered-stance squat that develops each quadriceps independently without stepping between repetitions.",
+    "instructions": [
+      "Take a stable split stance with both feet pointing forward and your rear heel lifted.",
+      "Lower straight down by bending both knees while keeping your weight centered over the front foot.",
+      "Press through the front foot to rise back to the same split stance, then repeat before changing sides.",
+      "Keep your front knee tracking over its toes and avoid narrowing your stance until balance is lost."
+    ]
+  },
+  "forward-lunge": {
+    "description": "A stepping lunge that loads the lead quadriceps as the body moves forward and down.",
+    "instructions": [
+      "Stand tall with feet under your hips and enough clear floor in front of you for one deliberate step.",
+      "Step forward, plant the whole lead foot, and bend both knees to lower your body under control.",
+      "Push firmly through the lead foot to travel back to the starting stance, then alternate or repeat the side.",
+      "Place the lead foot wide enough for balance and keep its knee aligned rather than drifting inward."
+    ]
+  },
+  "reverse-lunge": {
+    "description": "A backward-stepping lunge that keeps the front leg planted while training its quadriceps.",
+    "instructions": [
+      "Stand upright with feet under your hips and brace before moving one foot behind you.",
+      "Step back onto the ball of that foot and lower the rear knee as the stationary front knee bends.",
+      "Drive through the front foot to bring the rear leg forward and finish in the original standing position.",
+      "Keep the front heel grounded and use a straight backward step that leaves enough width for balance."
+    ]
+  },
+  "walking-lunge": {
+    "description": "A traveling lunge that alternates legs and links repeated quadriceps-dominant steps.",
+    "instructions": [
+      "Stand at the start of a clear path with your torso upright and feet facing forward.",
+      "Step ahead and lower through both knees until you reach a controlled lunge position.",
+      "Push through the front foot, bring the rear leg forward into the next step, and continue alternating sides.",
+      "Keep each step wide enough side to side for balance and prevent either knee from folding inward."
+    ]
+  },
+  "step-up": {
+    "description": "A forward platform ascent that uses one leg to raise the body and emphasize the quadriceps.",
+    "instructions": [
+      "Face a stable platform and place one entire foot on top with the knee aligned over the toes.",
+      "Drive through the elevated foot to lift your body onto the platform without springing from the trailing leg.",
+      "Stand fully on the working leg, then step down with control and complete the side before switching.",
+      "Keep the working heel planted and verify the platform cannot slide or tip before beginning."
+    ]
+  },
+  "kettlebell-goblet-squat": {
+    "description": "A goblet squat using a kettlebell at the chest to train the quadriceps with a compact front hold.",
+    "instructions": [
+      "Hold the kettlebell by the horns at your chest and set your feet in a balanced squat stance.",
+      "Lower between your legs by bending your knees and hips while keeping the bell close to your torso.",
+      "Press through your whole feet to stand and finish with the kettlebell still centered at chest height.",
+      "Keep your wrists neutral, heels down, and knees moving in line with your toes."
+    ]
+  },
+  "box-jump": {
+    "description": "An explosive jump from the floor to a raised platform that develops lower-body power led by the quadriceps.",
+    "instructions": [
+      "Face a stable box with feet about hip-width apart and leave enough room for a natural arm swing.",
+      "Dip through your hips and knees, swing your arms, and jump upward and forward onto the box.",
+      "Land softly with both feet fully supported, stand to control the landing, and step down carefully.",
+      "Use a box you can clear without tucking excessively, and never jump down into the next repetition."
+    ]
+  },
+  "lateral-box-step-up": {
+    "description": "A sideways step-up that challenges the quadriceps while requiring control in the frontal plane.",
+    "instructions": [
+      "Stand beside a stable box and place the nearer foot fully on top with your hips facing forward.",
+      "Press through the elevated foot to raise your body sideways while keeping the working knee aligned.",
+      "Reach a balanced stand on the box, then lower the outside foot to the floor with control before repeating.",
+      "Keep the elevated heel planted and avoid pushing off aggressively with the foot on the floor."
+    ]
+  },
+  "trx-squat": {
+    "description": "A suspension-assisted squat that uses the straps for balance while the legs perform the movement.",
+    "instructions": [
+      "Face the anchor, hold a handle in each hand, and step back until the straps are lightly tensioned.",
+      "Bend your knees and hips to sit down between your feet while your arms remain long and relaxed.",
+      "Push through your feet to stand, using the handles only as much as needed to stay balanced.",
+      "Keep steady strap tension and do not lean back or pull yourself upward with your arms."
+    ]
+  },
+  "romanian-deadlift": {
+    "description": "A barbell hip hinge that lengthens and loads the hamstrings while the knees remain softly bent.",
+    "instructions": [
+      "Stand with the bar at your thighs, hands outside your legs, and knees slightly bent.",
+      "Push your hips backward and lower the bar close along your legs while keeping your spine steady.",
+      "Drive your hips forward to stand tall, bringing the bar back to your thighs without leaning behind it.",
+      "Stop the descent when your hinge ends rather than reaching lower by rounding your back."
+    ]
+  },
+  "dumbbell-romanian-deadlift": {
+    "description": "A dumbbell hip hinge that targets the hamstrings with independent weights beside the legs.",
+    "instructions": [
+      "Stand with a dumbbell in each hand in front of your thighs and soften your knees.",
+      "Send your hips backward as the dumbbells slide close to your thighs and shins under control.",
+      "Press your feet down and bring your hips forward to return to a tall standing position.",
+      "Keep the dumbbells close and end the lowering phase before your back begins to round."
+    ]
+  },
+  "single-leg-romanian-deadlift": {
+    "description": "A one-leg dumbbell hinge that trains the hamstrings while challenging hip and trunk stability.",
+    "instructions": [
+      "Stand on one softly bent leg with a dumbbell in the opposite hand and square your hips forward.",
+      "Reach the free leg behind you as you hinge, lowering the dumbbell near the standing leg in a controlled arc.",
+      "Drive through the standing foot and bring your torso and free leg back to the upright start.",
+      "Keep both hip points facing the floor and use nearby support if balance disrupts the hinge path."
+    ]
+  },
+  "seated-leg-curl": {
+    "description": "A seated machine curl that trains the hamstrings by bending the knees against a lower-leg pad.",
+    "instructions": [
+      "Align your knees with the machine pivot and secure the thigh and ankle pads against your legs.",
+      "Curl the lower pad down and back by bending your knees while keeping your thighs pinned.",
+      "Pause at the curled position, then let the pad return slowly until your knees are extended comfortably.",
+      "Keep your hips against the seat and avoid lifting the thigh restraint or bouncing at either end."
+    ]
+  },
+  "lying-leg-curl": {
+    "description": "A prone machine curl that isolates the hamstrings as the heels travel toward the back of the thighs.",
+    "instructions": [
+      "Lie face down with your knees near the machine pivot and the roller resting above your heels.",
+      "Bend your knees to curl the roller toward your thighs while keeping your hips against the pad.",
+      "Hold the top briefly, then lower your legs smoothly until they return to the starting position.",
+      "Keep your pelvis quiet and avoid arching your lower back to lift the roller farther."
+    ]
+  },
+  "standing-single-leg-curl": {
+    "description": "A standing machine curl that isolates one hamstring while the opposite leg provides support.",
+    "instructions": [
+      "Align the working knee with the machine pivot, place the roller above its heel, and hold the supports.",
+      "Curl the working heel upward by bending only that knee while keeping both thighs parallel.",
+      "Pause at the top, lower the roller under control, and complete the side before changing legs.",
+      "Keep your hips square and avoid swinging your thigh or leaning your torso to move the pad."
+    ]
+  },
+  "nordic-hamstring-curl": {
+    "description": "A kneeling bodyweight exercise that challenges the hamstrings as they resist the torso falling forward.",
+    "instructions": [
+      "Kneel on padding with your ankles firmly secured and hold a straight line from knees through shoulders.",
+      "Lower your body forward as one unit, resisting the fall with your hamstrings for as long as you can control it.",
+      "Catch yourself with your hands, press lightly from the floor, and use your hamstrings to return upright.",
+      "Keep your hips extended and place your hands ready to prevent an uncontrolled impact with the floor."
+    ]
+  }
+}

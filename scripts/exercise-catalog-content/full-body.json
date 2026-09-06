@@ -1,0 +1,200 @@
+{
+  "farmers-carry": {
+    "description": "A loaded carry that challenges grip, posture, and whole-body stability while walking.",
+    "instructions": [
+      "Stand between two dumbbells, hinge to grasp them, then stand tall with the weights at your sides.",
+      "Walk with deliberate, even steps while keeping your ribs stacked over your pelvis and the weights quiet.",
+      "Stop under control, hinge at the hips, and place both dumbbells on the floor without dropping them.",
+      "Keep your shoulders level, avoid leaning or rushing, and use a clear path with secure footing."
+    ]
+  },
+  "burpee": {
+    "description": "A floor-to-standing bodyweight movement combining a squat, plank, and vertical jump.",
+    "instructions": [
+      "Stand with feet about hip-width apart, then squat and place both hands firmly on the floor.",
+      "Step or jump your feet back to a strong plank, then bring them forward beneath your hips.",
+      "Rise from the squat, jump vertically with hands overhead, and land softly before the next repetition.",
+      "Keep your trunk braced in the plank and land with knees tracking in line with your toes."
+    ]
+  },
+  "bear-crawl": {
+    "description": "A quadruped crawl that coordinates opposite limbs while the trunk stays stable.",
+    "instructions": [
+      "Start on hands and knees with wrists under shoulders, knees under hips, and knees hovering above the floor.",
+      "Move one hand and the opposite foot together, alternating sides with short, quiet steps.",
+      "Pause in the hovering start position before lowering both knees gently to finish.",
+      "Keep hips low and level, press the floor away, and avoid letting your hands and feet cross."
+    ]
+  },
+  "dumbbell-thruster": {
+    "description": "A dumbbell front squat flowing directly into an overhead press.",
+    "instructions": [
+      "Hold dumbbells at shoulder height with feet in a stable squat stance and elbows slightly forward.",
+      "Squat between your hips, then drive through your feet and use the rising momentum to press overhead.",
+      "Finish tall with both dumbbells stacked over your shoulders, then lower them to the rack position before squatting again.",
+      "Keep knees aligned with toes and avoid pressing early or arching your lower back overhead."
+    ]
+  },
+  "barbell-thruster": {
+    "description": "A barbell front squat linked to a powerful standing overhead press.",
+    "instructions": [
+      "Set the bar across the front of your shoulders with hands just outside shoulder width and elbows lifted.",
+      "Descend into a front squat, then stand forcefully and transfer that drive into a smooth overhead press.",
+      "Reach a balanced overhead position, lower the bar to your shoulders under control, and reset your brace.",
+      "Maintain an upright torso, track knees over toes, and keep the bar close as it passes your face."
+    ]
+  },
+  "dumbbell-clean-and-press": {
+    "description": "A dumbbell lift from a hip hinge to the shoulders, followed by an overhead press.",
+    "instructions": [
+      "Stand over two dumbbells with feet about hip-width apart, hinge down, and grip them with a flat, braced torso.",
+      "Extend hips and knees, guide the dumbbells close to your body, and turn the elbows under to catch at the shoulders.",
+      "Stand fully, press both dumbbells overhead, then lower to the shoulders and hinge them back to the floor.",
+      "Keep the weights close, catch with stable knees, and avoid curling the dumbbells or overextending overhead."
+    ]
+  },
+  "kettlebell-clean-and-press": {
+    "description": "A kettlebell clean into the rack position followed by a controlled overhead press.",
+    "instructions": [
+      "Place the kettlebell between your feet, hinge to grip it with one hand, and brace your trunk with shoulders square.",
+      "Drive the hips forward, keep the bell close, and guide your hand around it so it settles softly in the rack.",
+      "Press the bell overhead to a stacked arm, lower it to the rack, then guide it into a backswing or to the floor.",
+      "Keep your wrist straight, prevent the bell from striking your forearm, and avoid leaning away during the press."
+    ]
+  },
+  "kettlebell-swing": {
+    "description": "A hip-driven kettlebell movement that cycles between a backswing and a standing float.",
+    "instructions": [
+      "Set the kettlebell just ahead of your feet, hinge to grip it, and tip it toward you with your back long.",
+      "Hike the bell between your thighs, then snap the hips forward so the bell floats from the hip drive.",
+      "Let the bell fall naturally into the next hinge, or guide it forward and park it softly to finish.",
+      "Keep arms relaxed, knees softly bent, and avoid squatting the swing or lifting the bell with your shoulders."
+    ]
+  },
+  "turkish-get-up": {
+    "description": "A staged rise from the floor to standing while keeping a kettlebell stable overhead.",
+    "instructions": [
+      "Lie on your side with the kettlebell at your chest, grip it with both hands, roll to your back, press it above one shoulder, and bend the same-side knee.",
+      "Roll to the opposite elbow and hand, lift your hips, sweep the straight leg under, and settle into a half-kneeling position.",
+      "Stand with the bell overhead, reverse each stage to your back, guide the bell to your chest with both hands, then roll toward it and set it down.",
+      "Watch the bell during floor transitions, keep the loaded arm stacked, and pause whenever your balance shifts."
+    ]
+  },
+  "half-turkish-get-up": {
+    "description": "The opening stages of a Turkish get-up, finishing in a tall hip-supported position.",
+    "instructions": [
+      "Lie on your side with the kettlebell at your chest, grip it with both hands, roll to your back, press it above one shoulder, and bend the same-side knee.",
+      "Drive through the planted foot, roll onto the opposite elbow, post on the hand, and lift your hips while keeping the bell stacked.",
+      "Lower your hips, return to the elbow, roll onto your back, guide the bell to your chest with both hands, then roll toward it and set it down.",
+      "Keep your eyes on the kettlebell, your supporting shoulder active, and each transition slow enough to stay balanced."
+    ]
+  },
+  "kettlebell-figure-eight": {
+    "description": "A low kettlebell pass woven around the legs in a continuous figure-eight path.",
+    "instructions": [
+      "Take a wide stance, hinge with knees bent, and hold the kettlebell in one hand between your legs.",
+      "Pass the bell behind one leg to the opposite hand, bring it across the front, and weave it behind the other leg.",
+      "Complete the final pass, bring the bell to center with both hands, and stand before setting it down.",
+      "Keep your spine long, hips back, and fingers clear by making every handoff deliberate and close to the legs."
+    ]
+  },
+  "landmine-thruster": {
+    "description": "An angled barbell squat-to-press performed from a close two-handed hold.",
+    "instructions": [
+      "Face the landmine, cup the bar end at your upper chest, and set your feet in a comfortable squat stance.",
+      "Sit into a squat, then drive up and forward to press the bar along its angled path.",
+      "Finish tall with arms extended, then guide the bar back to your chest before beginning the next squat.",
+      "Keep your heels grounded, knees aligned with toes, and torso braced rather than chasing the bar forward."
+    ]
+  },
+  "renegade-row": {
+    "description": "An alternating dumbbell row performed from a plank with a strong anti-rotation demand.",
+    "instructions": [
+      "Grip two stable dumbbells in a high plank, place feet wider than hip-width, and form a straight line from head to heels.",
+      "Press one dumbbell into the floor while rowing the other toward your ribs without turning your chest.",
+      "Lower the dumbbell softly, regain a square plank, and alternate sides before ending with both weights grounded.",
+      "Keep hips level, elbows tracking near the body, and use dumbbells that will not roll beneath your hands."
+    ]
+  },
+  "dumbbell-devil-press": {
+    "description": "A burpee over dumbbells that transitions through a swing into an overhead finish.",
+    "instructions": [
+      "Set two dumbbells on the floor, grip them with wrists under shoulders, and step or jump into a strong plank.",
+      "Lower your chest between the dumbbells, return to plank, bring your feet forward, and swing the weights from a hip hinge.",
+      "Extend hips and knees to guide both dumbbells overhead, then lower them under control and place them for the next repetition.",
+      "Use stable dumbbells, keep them close during the swing, and avoid rounding your back or pressing from an unstable stance."
+    ]
+  },
+  "man-maker": {
+    "description": "A dumbbell complex combining a push-up, alternating rows, clean, squat, and overhead press.",
+    "instructions": [
+      "Start gripping two stable dumbbells in a high plank with feet set wide enough to resist rotation.",
+      "Perform a push-up, row each dumbbell once, then bring your feet forward and clean the weights to your shoulders.",
+      "Complete a front squat into an overhead press, lower the dumbbells to your shoulders, and return them to the floor.",
+      "Keep hips square during rows, maintain control through every transition, and do not let the dumbbells roll."
+    ]
+  },
+  "battle-rope-alternating-waves": {
+    "description": "Alternating arm waves on battle ropes maintained from an athletic stance.",
+    "instructions": [
+      "Face the anchor with one rope end in each hand, soften your knees, hinge slightly, and take out excess slack.",
+      "Raise one hand as the other lowers, alternating smoothly to send continuous waves toward the anchor.",
+      "Gradually reduce the wave size, return both hands beside your thighs, and let the ropes settle.",
+      "Keep your trunk steady, shoulders down, and elbows softly bent instead of rocking your whole body."
+    ]
+  },
+  "battle-rope-double-waves": {
+    "description": "Synchronized battle-rope waves produced with both arms from a braced stance.",
+    "instructions": [
+      "Stand facing the anchor with a rope end in each hand, knees bent, hips back, and enough tension to control the ropes.",
+      "Lift and lower both hands together in a steady rhythm, creating matching waves along the ropes.",
+      "Make the waves progressively smaller, lower both hands, and allow the ropes to stop moving before stepping away.",
+      "Hold your torso stable, keep shoulders away from your ears, and avoid locking your knees or elbows."
+    ]
+  },
+  "battle-rope-slams": {
+    "description": "A coordinated overhead rope lift followed by a forceful two-arm slam.",
+    "instructions": [
+      "Face the anchor holding both rope ends, set your feet securely, and lower into a shallow athletic stance.",
+      "Extend through the hips and knees as both arms rise, then hinge and pull the ropes down together toward the floor.",
+      "Absorb the finish with bent knees, regain your stance, and let the ropes settle after the final slam.",
+      "Brace before each pull, keep the hinge controlled, and maintain clear space around the moving ropes."
+    ]
+  },
+  "medicine-ball-slam": {
+    "description": "A medicine-ball lift overhead followed by a whole-body slam to the floor.",
+    "instructions": [
+      "Stand with feet about shoulder-width apart, hold the medicine ball at chest height, and brace your trunk.",
+      "Reach the ball overhead as you extend tall, then hinge and bend your knees while driving it into the floor.",
+      "Let the ball settle or rebound safely, squat to collect it with both hands, and stand to reset.",
+      "Use a ball intended for slams, keep your face clear of its rebound, and avoid rounding as you retrieve it."
+    ]
+  },
+  "medicine-ball-overhead-throw": {
+    "description": "A two-handed overhead medicine-ball throw driven by coordinated leg, trunk, and arm extension.",
+    "instructions": [
+      "Stand facing a sturdy target with the medicine ball in both hands and enough clear space for its return.",
+      "Dip through the hips and knees, bring the ball overhead, then extend through your legs and arms to throw it forward.",
+      "Finish balanced with arms following through, then wait for the ball to settle before retrieving it.",
+      "Confirm the target and ball suit throwing, keep the area clear, and never chase an unpredictable rebound."
+    ]
+  },
+  "sled-push": {
+    "description": "A forward sled drive using coordinated leg action and a rigid upper-body connection.",
+    "instructions": [
+      "Grip the sled posts, lean forward from ankles to head, and stagger your feet with arms firmly extended.",
+      "Drive the floor back with short, steady steps while keeping constant pressure through both hands.",
+      "Slow your steps under control, bring the sled to a complete stop, and stand upright before releasing it.",
+      "Keep your spine neutral, knees tracking with toes, and the path clear throughout the push."
+    ]
+  },
+  "sled-pull": {
+    "description": "A controlled sled drag that links a firm grip and braced torso with steady backward steps.",
+    "instructions": [
+      "Face the sled, hold its straps or handles securely, step back until they are taut, and bend your knees slightly.",
+      "Walk backward with deliberate alternating steps, keeping your chest tall and tension continuous through the straps.",
+      "Shorten your steps to stop the sled smoothly, then release tension only after it is fully still.",
+      "Keep hips level, track each knee over its foot, and check the path behind you before and during the pull."
+    ]
+  }
+}

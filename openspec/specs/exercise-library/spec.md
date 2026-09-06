@@ -24,53 +24,62 @@ The application SHALL access exercise data through an `ExerciseRepository` contr
 - **WHEN** a future asynchronous API repository replaces the local repository at the Exercises composition boundary
 - **THEN** route data-state and presentation component contracts remain unchanged
 
+### Requirement: Exact stable-ID repository lookup
+The local `ExerciseRepository` SHALL retain immediate asynchronous behavior, SHALL return the canonical record for an exact stable-ID lookup, and SHALL return `null` for an unknown or case-mismatched ID without changing its interface.
+
+#### Scenario: Every canonical stable ID is requested
+- **WHEN** each of the 216 manifest stable IDs is passed to `getExerciseById`
+- **THEN** each promise resolves to the one catalog record with that exact ID
+
+#### Scenario: Unknown stable ID is requested
+- **WHEN** an ID outside the manifest or a case-mismatched canonical ID is passed to `getExerciseById`
+- **THEN** the promise resolves to `null`
+
 ### Requirement: Approved local development catalog
-The local repository SHALL contain exactly 21 statically typed exercises in this order: unchanged Bodyweight Squat followed by the 20 approved chest-batch records in canonical manifest order. The chest records SHALL use `Chest / upper body`, category `Strength`, primary body part `chest`, and the exact classifications and optional relationships below. Push-Up SHALL retain stable ID `push-up` rather than being duplicated. A dash denotes an omitted relationship field.
-
-| ID | Name | Secondary body parts | Difficulty | Equipment, declared order | Progression | Regression |
-| --- | --- | --- | --- | --- | --- | --- |
-| `push-up` | Push-Up | `triceps`, `shoulders`, `core` | `beginner` | `bodyweight` | - | `incline-push-up` |
-| `bent-knee-push-up` | Bent-Knee Push-Up | `triceps`, `shoulders`, `core` | `beginner` | `bodyweight` | `push-up` | - |
-| `incline-push-up` | Incline Push-Up | `triceps`, `shoulders`, `core` | `beginner` | `bodyweight`, `bench` | `push-up` | - |
-| `decline-push-up` | Decline Push-Up | `triceps`, `shoulders`, `core` | `intermediate` | `bodyweight`, `bench` | `weighted-push-up` | `push-up` |
-| `weighted-push-up` | Weighted Push-Up | `triceps`, `shoulders`, `core` | `advanced` | `bodyweight`, `weight-plate` | - | `push-up` |
-| `barbell-bench-press` | Barbell Bench Press | `triceps`, `shoulders` | `beginner` | `barbell`, `bench` | - | - |
-| `dumbbell-bench-press` | Dumbbell Bench Press | `triceps`, `shoulders` | `intermediate` | `dumbbell`, `bench` | - | - |
-| `machine-chest-press` | Machine Chest Press | `triceps`, `shoulders` | `beginner` | `machine` | - | - |
-| `smith-machine-bench-press` | Smith Machine Bench Press | `triceps`, `shoulders` | `beginner` | `smith-machine`, `bench` | - | - |
-| `incline-dumbbell-press` | Incline Dumbbell Press | `shoulders`, `triceps` | `beginner` | `dumbbell`, `bench` | - | - |
-| `incline-barbell-bench-press` | Incline Barbell Bench Press | `shoulders`, `triceps` | `intermediate` | `barbell`, `bench` | - | - |
-| `incline-machine-chest-press` | Incline Machine Chest Press | `shoulders`, `triceps` | `beginner` | `machine` | - | - |
-| `dumbbell-chest-fly` | Dumbbell Chest Fly | `shoulders` | `intermediate` | `dumbbell`, `bench` | - | - |
-| `cable-chest-fly` | Cable Chest Fly | `shoulders` | `intermediate` | `cable` | - | - |
-| `pec-deck-machine-fly` | Pec Deck / Machine Fly | `shoulders` | `beginner` | `machine` | - | - |
-| `cable-crossover` | Cable Crossover | `shoulders` | `intermediate` | `cable` | - | - |
-| `chest-dip` | Chest Dip | `triceps`, `shoulders` | `intermediate` | `bodyweight`, `pull-up-dip-station` | - | - |
-| `dumbbell-pullover` | Dumbbell Pullover | `back` | `intermediate` | `dumbbell`, `bench` | - | - |
-| `decline-barbell-bench-press` | Decline Barbell Bench Press | `triceps`, `shoulders` | `intermediate` | `barbell`, `bench` | - | - |
-| `decline-dumbbell-bench-press` | Decline Dumbbell Bench Press | `triceps`, `shoulders` | `intermediate` | `dumbbell`, `bench` | - | - |
-
-No other progression or regression relationship SHALL be populated in this batch. Bodyweight Squat SHALL retain its existing stable ID, classifications, content, media, and omitted relationships. The manifest's unselected records SHALL NOT be added by this change.
+The local repository SHALL contain exactly the 216 canonical exercises from `docs/exercise-canonical-manifest.json`. The final manifest ID set and catalog ID set SHALL be equal, every canonical ID and name SHALL occur exactly once, and no exercise outside the approved manifest SHALL be present. The current 21 records SHALL retain their stable IDs and authored content without duplication; Bodyweight Squat SHALL retain its existing classifications and media while adding only its manifest-approved progression to `goblet-squat`. Every manifest-owned classification and relationship field SHALL exactly match the corresponding manifest record, including declared array order and null/omitted relationship semantics.
 
 #### Scenario: Complete local catalog is listed
 - **WHEN** the local repository returns its complete exercise list
-- **THEN** it contains exactly 21 unique IDs and names with Bodyweight Squat first and the 20 chest records following in the specified order
+- **THEN** it contains exactly 216 records with ID and canonical-name sets equal to the manifest and no extra or duplicate record
 
-#### Scenario: Existing Push-Up is reconciled
-- **WHEN** the canonical chest batch is loaded
-- **THEN** exactly one record has ID `push-up` and name Push-Up, retains its approved existing content, and references only `incline-push-up` as its regression
+#### Scenario: Missing set is derived before authoring
+- **WHEN** the 21 shipped stable IDs are compared programmatically with the 216 manifest stable IDs
+- **THEN** the difference contains exactly the 195 IDs documented in this change's design and all 195 are added exactly once
 
-#### Scenario: Approved relationships are validated
-- **WHEN** the complete local catalog is constructed
-- **THEN** every populated progression/regression target resolves within the catalog, no record self-references, and only the six specified relationship fields are populated
+#### Scenario: Existing canonical records are reconciled
+- **WHEN** the completed catalog is constructed
+- **THEN** Bodyweight Squat and the 20 seeded chest records retain their IDs, copy, classifications, and media except that Bodyweight Squat now references its manifest progression `goblet-squat`
 
-#### Scenario: Catalog batch boundary is inspected
-- **WHEN** the chest batch is compared with the 216-record manifest
-- **THEN** no unselected manifest record is added by this change, preserved Bodyweight Squat remains the only non-chest record, and no selected exercise is duplicated under another body part
+#### Scenario: Manifest classifications are compared
+- **WHEN** each final catalog record is normalized and compared by stable ID with the manifest
+- **THEN** name, primary body part, ordered secondary body parts, difficulty, ordered equipment, progression, and regression match exactly for all 216 records
 
 #### Scenario: Static detail parameters are generated
 - **WHEN** static web detail parameters are produced from the local repository
-- **THEN** they contain each of the 21 stable IDs exactly once
+- **THEN** they contain each of the 216 canonical stable IDs exactly once and the dynamic route fallback remains available
+
+### Requirement: Deterministic generated catalog source
+The checked-in TypeScript modules containing the 195 newly generated exercise records SHALL be produced by a deterministic, idempotent authoring-time generator using only the repository's existing Node and toolchain capabilities. Every generated module SHALL begin with a clear generated-source header identifying the generator and prohibiting manual edits. With unchanged manifest and authored-content inputs, rerunning generation SHALL produce byte-for-byte identical output, and non-writing check mode SHALL fail when checked-in generated output is missing, extra, or stale.
+
+#### Scenario: Generated module is inspected
+- **WHEN** a checked-in generated catalog module is opened
+- **THEN** its header clearly identifies it as generated source, names the generator, and states that it must not be manually edited
+
+#### Scenario: Generation is repeated with unchanged inputs
+- **WHEN** generation runs more than once with identical manifest and authored-content inputs
+- **THEN** every generated output file is byte-for-byte identical across runs
+
+#### Scenario: Checked-in output is current
+- **WHEN** non-writing check mode renders expected output from unchanged inputs
+- **THEN** it succeeds only when every checked-in generated file matches the expected bytes exactly
+
+#### Scenario: Checked-in output is stale
+- **WHEN** a generated file is changed, omitted, or no longer corresponds to the current inputs
+- **THEN** non-writing check mode fails without silently rewriting the checked-in output
+
+#### Scenario: Generator dependencies are inspected
+- **WHEN** the authoring pipeline is reviewed
+- **THEN** it introduces no npm, runtime, or code-generation dependency and uses only existing repository Node/toolchain capabilities
 
 ### Requirement: Offline library assets and content
 Each development exercise SHALL use a bundled local thumbnail with alternative text so catalog cards and textual exercise data do not require network access.
@@ -80,77 +89,77 @@ Each development exercise SHALL use a bundled local thumbnail with alternative t
 - **THEN** both exercise cards, bundled thumbnails, metadata, search, and filters remain usable
 
 ### Requirement: Exercise summary cards
-The Exercises section SHALL display a browsable card for every matching exercise with a thumbnail, exercise name, target body area, category, human-readable difficulty level, and every required equipment label resolved in declared order from the structured exercise record. A fixture whose sole equipment ID is `bodyweight` SHALL retain the exact `Bodyweight / no equipment` presentation.
+The Exercises section SHALL display a browsable card for every matching exercise with a thumbnail, exercise name, target body area, category, human-readable difficulty level, and every required equipment label resolved in declared order from the structured exercise record. A record whose sole equipment ID is `bodyweight` SHALL retain the exact `Bodyweight / no equipment` presentation, and the completed catalog SHALL remain renderable through the existing card contract for every approved equipment category.
 
 #### Scenario: User opens the exercise library
 - **WHEN** no search or restrictive filter is active
-- **THEN** every local sample exercise is represented by a card containing all required summary fields and readable taxonomy labels
+- **THEN** every one of the 216 local exercises is represented by a card containing all required summary fields and readable taxonomy labels
 
 #### Scenario: Exercise requires multiple equipment items
 - **WHEN** a matching exercise record declares more than one equipment ID
-- **THEN** its card presents every required equipment label without changing navigation behavior
+- **THEN** its card presents every required equipment label in declared order without changing navigation behavior
 
-#### Scenario: Development bodyweight card is displayed
-- **WHEN** Bodyweight Squat or Push-Up is represented by a library card
+#### Scenario: Bodyweight-only card is displayed
+- **WHEN** an exercise declares only `bodyweight`
 - **THEN** its equipment metadata and accessibility copy use `Bodyweight / no equipment`
+
+#### Scenario: Approved equipment categories are represented
+- **WHEN** representative cards are rendered across all approved equipment IDs used by the manifest
+- **THEN** each card resolves every equipment label, thumbnail alternative text, accessible action name, and stable-ID navigation target through existing presentation contracts
 
 #### Scenario: Bundled thumbnail cannot render
 - **WHEN** a bundled exercise thumbnail unexpectedly fails to render
 - **THEN** the card retains its readable exercise information and an intentional visual fallback
 
 ### Requirement: Search by exercise name
-The library SHALL let the user search exercise names using case-insensitive, trimmed text matching across the complete local catalog.
+The library SHALL let the user search exercise names using case-insensitive, trimmed text matching across the complete 216-record local catalog without searching descriptions, body parts, or equipment.
 
 #### Scenario: Name contains the query
 - **WHEN** the user enters text contained in an exercise name
 - **THEN** matching exercise cards remain visible and nonmatching cards are excluded
 
-#### Scenario: Representative chest names are searched
-- **WHEN** the user searches representative terms such as `push-up`, `bench press`, `chest fly`, `crossover`, `dip`, or `pullover`
-- **THEN** the corresponding canonical chest records are discoverable without searching descriptions, body parts, or equipment
+#### Scenario: Representative body-part names are searched
+- **WHEN** searches target representative chest, back, quadriceps, hamstrings, glutes, shoulders, biceps, triceps, forearms, core, calves, and full-body exercise names
+- **THEN** the corresponding canonical records are discoverable by name
 
 #### Scenario: Search is cleared
 - **WHEN** the user clears the search text
 - **THEN** name search no longer excludes exercise cards
 
 ### Requirement: Body area and difficulty filters
-The library SHALL preserve its independently selectable body-area and difficulty filters, including an all-values option for each dimension. Difficulty selection SHALL continue to use canonical `beginner`, `intermediate`, and `advanced` values with human-readable labels, and this change SHALL NOT add body-part or equipment filter dimensions.
+The library SHALL preserve its independently selectable body-area and difficulty filters, including an all-values option for each dimension. The existing body-area choices and exact-match behavior SHALL remain `All`, `Lower body`, and `Chest / upper body`; the change SHALL NOT add core, full-body, body-part, or equipment filter choices. Difficulty selection SHALL continue to use canonical `beginner`, `intermediate`, and `advanced` values with human-readable labels. Search, body-area, and difficulty predicates SHALL retain AND semantics and preserve catalog order.
 
 #### Scenario: All body areas are selected
 - **WHEN** no restrictive body-area or difficulty filter is active
-- **THEN** all 21 local exercises are visible
-
-#### Scenario: Body area is selected
-- **WHEN** the user selects a body-area value
-- **THEN** only exercises assigned to that existing body area remain visible
-
-#### Scenario: Chest body area is selected
-- **WHEN** the user selects `Chest / upper body`
-- **THEN** exactly the 20 approved chest-batch exercises remain visible
+- **THEN** all 216 canonical exercises are visible
 
 #### Scenario: Lower body area is selected
-- **WHEN** the user selects `Lower body`
-- **THEN** only Bodyweight Squat remains visible
+- **WHEN** the user selects `Lower body` without another restriction
+- **THEN** the 43 exercises assigned to the existing lower-body area remain visible, including Bodyweight Squat
 
-#### Scenario: Difficulty is selected
-- **WHEN** the user selects Beginner, Intermediate, or Advanced
-- **THEN** only exercises assigned to the corresponding canonical difficulty remain visible
+#### Scenario: Chest and upper body area is selected
+- **WHEN** the user selects `Chest / upper body` without another restriction
+- **THEN** the 116 exercises assigned to the existing chest-and-upper-body area remain visible, including all 22 primary-chest exercises
+
+#### Scenario: Core and full-body records use existing discovery
+- **WHEN** a core or full-body exercise is sought
+- **THEN** it remains available through `All` and name search without adding a body-area filter choice
 
 #### Scenario: Beginner difficulty is selected
-- **WHEN** the user selects Beginner without a restrictive body-area filter
-- **THEN** the 9 beginner chest records and Bodyweight Squat remain visible
+- **WHEN** the user selects Beginner without another restriction
+- **THEN** exactly the manifest's 100 beginner exercises remain visible
 
 #### Scenario: Intermediate difficulty is selected
-- **WHEN** the user selects Intermediate without a restrictive body-area filter
-- **THEN** exactly the 10 intermediate chest records remain visible
+- **WHEN** the user selects Intermediate without another restriction
+- **THEN** exactly the manifest's 97 intermediate exercises remain visible
 
 #### Scenario: Advanced difficulty is selected
-- **WHEN** the user selects Advanced without a restrictive body-area filter
-- **THEN** only Weighted Push-Up remains visible
+- **WHEN** the user selects Advanced without another restriction
+- **THEN** exactly the manifest's 19 advanced exercises remain visible
 
 #### Scenario: Search and filters are combined
 - **WHEN** search text, a body-area filter, and a difficulty filter are active together
-- **THEN** only exercises satisfying every active condition remain visible
+- **THEN** only exercises satisfying every active condition remain visible in catalog order
 
 ### Requirement: Empty filtered results
 The library SHALL display an accessible no-results state when no exercise satisfies the active search and filters.

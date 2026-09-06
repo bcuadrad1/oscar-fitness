@@ -176,12 +176,18 @@ export function formatExerciseEquipment(equipmentIds: ExerciseEquipmentIds): str
 
 export function defineExerciseCatalog<const T extends readonly Exercise[]>(exercises: T): T {
   const exerciseIds = new Set<string>();
+  const exerciseNames = new Set<string>();
 
   for (const exercise of exercises) {
     if (exerciseIds.has(exercise.id)) {
       throw new Error(`Duplicate exercise ID: ${exercise.id}`);
     }
     exerciseIds.add(exercise.id);
+
+    if (exerciseNames.has(exercise.name)) {
+      throw new Error(`Duplicate exercise name: ${exercise.name}`);
+    }
+    exerciseNames.add(exercise.name);
 
     const secondaryBodyPartIds = new Set(exercise.secondaryBodyPartIds);
     if (secondaryBodyPartIds.size !== exercise.secondaryBodyPartIds.length) {

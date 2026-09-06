@@ -2,6 +2,7 @@ import {
   defineExerciseCatalog,
   type Exercise,
 } from '@/features/exercises/exercise-types';
+import { GENERATED_EXERCISES } from '@/features/exercises/generated/exercise-catalog.generated';
 
 const DEVELOPMENT_VIDEO_URL = 'https://www.w3schools.com/html/mov_bbb.mp4';
 const CHEST_PLACEHOLDER_SOURCE = require('../../../assets/images/exercises/push-up.png');
@@ -55,6 +56,7 @@ export const LOCAL_EXERCISES = defineExerciseCatalog([
       label: 'Development playback sample - non-exercise media',
       accessibilityLabel: 'Non-exercise development playback sample for Bodyweight Squat',
     },
+    progressionExerciseId: 'goblet-squat',
   },
   {
     id: 'push-up',
@@ -350,4 +352,5 @@ export const LOCAL_EXERCISES = defineExerciseCatalog([
       'Use a depth that keeps your shoulders comfortable and prevents the dumbbells from drifting too wide.',
     ],
   }),
+  ...GENERATED_EXERCISES,
 ] as const satisfies readonly Exercise[]);

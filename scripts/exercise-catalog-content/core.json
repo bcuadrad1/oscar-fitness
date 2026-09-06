@@ -1,0 +1,317 @@
+{
+  "crunch": {
+    "description": "A short-range trunk curl that brings the ribs toward the pelvis while the hips stay still.",
+    "instructions": [
+      "Lie face up with knees bent, feet planted, and fingertips resting lightly beside your head.",
+      "Brace your abdomen and curl your shoulder blades from the floor without moving your legs.",
+      "Pause with the ribs drawn down, then uncurl slowly until your shoulders settle back onto the floor.",
+      "Keep space beneath your chin and avoid pulling your head forward with your hands."
+    ]
+  },
+  "reverse-crunch": {
+    "description": "A floor exercise that curls the pelvis toward the ribs instead of lifting the upper trunk.",
+    "instructions": [
+      "Lie face up with arms beside you, hips and knees bent, and shins held above the floor.",
+      "Draw your knees toward your chest and roll the tailbone up using your abdomen rather than leg swing.",
+      "Lower the pelvis with control and return the thighs to their starting angle.",
+      "Keep your shoulders grounded and make the curl small enough to prevent momentum."
+    ]
+  },
+  "bicycle-crunch": {
+    "description": "An alternating floor crunch that pairs trunk rotation with a cycling leg action.",
+    "instructions": [
+      "Lie face up with fingertips beside your head, knees bent over your hips, and shoulder blades lifted.",
+      "Rotate one shoulder toward the opposite knee as that knee draws in and the other leg extends.",
+      "Pass through center under control, then repeat the coordinated rotation and leg switch on the other side.",
+      "Keep your elbows open and rotate through your ribs instead of tugging your neck."
+    ]
+  },
+  "sit-up": {
+    "description": "A full trunk curl from the floor to an upright seated position.",
+    "instructions": [
+      "Lie face up with knees bent, feet planted, and arms crossed over your chest.",
+      "Curl your head, shoulders, and torso from the floor until your chest approaches your thighs.",
+      "Reverse the motion slowly and place your back down from the lower spine to the shoulders.",
+      "Keep your feet steady and avoid throwing your arms or head to create momentum."
+    ]
+  },
+  "decline-sit-up": {
+    "description": "A sit-up performed on a decline bench, increasing the trunk's travel against gravity.",
+    "instructions": [
+      "Secure your feet in the decline bench pads and lie back with arms crossed over your chest.",
+      "Curl your torso upward in sequence until you reach a balanced seated position on the bench.",
+      "Lean back under control and lower your spine onto the pad without dropping into the bottom.",
+      "Keep your hips anchored and use a decline angle that lets you control the entire return."
+    ]
+  },
+  "machine-ab-crunch": {
+    "description": "A guided seated crunch that flexes the trunk against the machine's resistance.",
+    "instructions": [
+      "Adjust the seat and pads so the machine's pivot matches your trunk and your feet stay firmly supported.",
+      "Brace, then curl your ribs toward your pelvis while pressing evenly into the upper pad or handles.",
+      "Pause in the shortened position and slowly let the machine guide your torso upright again.",
+      "Keep your hips against the seat and do not drive the movement by pulling with your arms."
+    ]
+  },
+  "cable-crunch": {
+    "description": "A kneeling trunk curl that uses a high cable to maintain resistance through the crunch.",
+    "instructions": [
+      "Kneel facing the high pulley, hold the rope beside your temples, and set your hips over your knees.",
+      "Curl your ribs toward your pelvis while keeping the rope fixed beside your head.",
+      "Pause near the bottom, then uncurl gradually until your torso returns to the starting angle.",
+      "Keep your hips quiet and avoid turning the exercise into a backward-and-forward hip hinge."
+    ]
+  },
+  "front-plank": {
+    "description": "A prone isometric hold that resists arching through the trunk from shoulders to heels.",
+    "instructions": [
+      "Place your forearms on the floor with elbows under shoulders and extend both legs onto your toes.",
+      "Lift your knees and hold a straight line while gently drawing your ribs and pelvis toward each other.",
+      "Lower both knees to the floor with control before relaxing your forearms.",
+      "Keep your head aligned with your spine and prevent the hips from sagging or lifting."
+    ]
+  },
+  "side-plank": {
+    "description": "A side-facing isometric hold that challenges the trunk to resist bending toward the floor.",
+    "instructions": [
+      "Lie on one side with your elbow below your shoulder and stack your legs and feet.",
+      "Lift your hips until your head, trunk, and legs form one line, then hold that position steadily.",
+      "Lower your hips softly to the floor and reset before changing sides.",
+      "Press the supporting forearm down and keep the shoulder away from your ear throughout the hold."
+    ]
+  },
+  "plank-shoulder-tap": {
+    "description": "A high-plank drill that challenges the trunk to stay square while support alternates between the arms.",
+    "instructions": [
+      "Set a high plank with hands under shoulders, legs extended, and feet placed for stable support.",
+      "Shift as little as possible while lifting one hand to tap the opposite shoulder, then alternate sides.",
+      "Place each palm fully beneath its shoulder and finish by lowering both knees to the floor.",
+      "Keep your hips level and use a wider foot position if your torso twists during the taps."
+    ]
+  },
+  "plank-hip-dip": {
+    "description": "A forearm-plank variation that rotates the pelvis from side to side under control.",
+    "instructions": [
+      "Begin in a forearm plank with elbows under shoulders, legs long, and feet close together.",
+      "Rotate your pelvis to lower one hip toward the floor, then sweep through center toward the other side.",
+      "Return your hips to a square plank and lower your knees when the set is complete.",
+      "Keep both forearms planted and limit the dip before your shoulders collapse or your lower back arches."
+    ]
+  },
+  "dead-bug": {
+    "description": "A supine coordination drill that keeps the trunk steady while opposite limbs reach away.",
+    "instructions": [
+      "Lie face up with arms above your shoulders and hips and knees bent to form right angles.",
+      "Press your lower back gently down as you extend one leg and the opposite arm toward the floor.",
+      "Bring both limbs back over the trunk, then repeat with the other arm and leg.",
+      "Shorten each reach if your ribs flare or your lower back begins to lift."
+    ]
+  },
+  "bird-dog": {
+    "description": "A quadruped exercise that trains trunk stability during an opposite arm-and-leg reach.",
+    "instructions": [
+      "Start on hands and knees with wrists below shoulders, knees below hips, and spine neutral.",
+      "Reach one arm forward and the opposite leg back while keeping your pelvis square to the floor.",
+      "Pause at full reach, return both hand and knee beneath you, then change sides.",
+      "Keep the reaching leg near hip height so your lower back does not arch or rotate."
+    ]
+  },
+  "hollow-body-hold": {
+    "description": "A supine isometric position that holds the trunk in a shallow curve with the limbs extended.",
+    "instructions": [
+      "Lie face up, draw your ribs down, and extend your arms overhead and legs away from your hips.",
+      "Lift your shoulders and legs from the floor while keeping your lower back pressed down, then hold.",
+      "Bring your knees in and lower your shoulders and arms to finish without abruptly releasing the position.",
+      "Raise your legs or bring your arms forward if your lower back loses contact with the floor."
+    ]
+  },
+  "v-up": {
+    "description": "A synchronized trunk-and-leg lift that meets near the top in a balanced V shape.",
+    "instructions": [
+      "Lie long on your back with legs together and arms extended overhead.",
+      "Lift your straight legs and torso together, reaching your hands toward your feet at the top.",
+      "Separate the torso and legs slowly and return them toward the floor with control.",
+      "Avoid jerking from the shoulders, and bend your knees if straight legs pull your pelvis forward."
+    ]
+  },
+  "toe-touch-crunch": {
+    "description": "An upper-trunk curl performed with the legs vertical and the hands reaching toward the feet.",
+    "instructions": [
+      "Lie face up, extend both legs above your hips, and reach your arms toward the ceiling.",
+      "Curl your shoulder blades up as your hands travel toward your toes while the legs remain still.",
+      "Pause at the top and lower your upper back slowly until the shoulders touch down.",
+      "Keep your neck long and avoid rocking the legs toward your hands."
+    ]
+  },
+  "lying-leg-raise": {
+    "description": "A supine leg-lowering exercise that asks the trunk to control the pelvis as the legs move.",
+    "instructions": [
+      "Lie face up with legs together, hands beside you, and feet raised above your hips.",
+      "Lower both legs together with control while keeping your pelvis steady and your back supported by the floor.",
+      "Stop before your back lifts, then raise your legs along the same path to the starting position.",
+      "Keep the motion smooth and bend your knees to reduce leverage if pelvic control is lost."
+    ]
+  },
+  "hanging-knee-raise": {
+    "description": "A hanging core movement that lifts bent knees while the upper body stays quiet beneath the bar.",
+    "instructions": [
+      "Hang from the station with a secure grip, arms long, legs together, and body settled without swinging.",
+      "Bend your hips and draw your knees toward your chest, finishing with a small upward curl of the pelvis.",
+      "Lower your knees until the legs hang beneath you and allow the body to become still again.",
+      "Keep your shoulders engaged and avoid kicking or leaning backward to lift the knees."
+    ]
+  },
+  "hanging-leg-raise": {
+    "description": "An advanced hanging raise that moves straight legs upward while resisting body swing.",
+    "instructions": [
+      "Hang from the station with a firm grip, active shoulders, and straight legs held together.",
+      "Raise both legs in front of you without bending the knees, curling the pelvis slightly at the top.",
+      "Lower the legs slowly to a vertical hang and regain a motionless position before continuing.",
+      "Do not chase extra height by swinging, arching your back, or relaxing your shoulder position."
+    ]
+  },
+  "captains-chair-knee-raise": {
+    "description": "A supported knee raise performed with the forearms and back braced against a captain's chair.",
+    "instructions": [
+      "Step into the station, press your forearms into the pads, support your back, and let your legs hang.",
+      "Draw your knees upward and curl your pelvis away from the back pad at the top.",
+      "Lower your thighs gradually until the legs hang beneath your hips, then settle before repeating.",
+      "Keep your shoulders pressed down and avoid pushing through your feet or swinging away from the pad."
+    ]
+  },
+  "ab-wheel-rollout": {
+    "description": "A kneeling rollout that lengthens the body behind a moving wheel while the trunk resists extension.",
+    "instructions": [
+      "Kneel with the ab wheel below your shoulders, grip both handles, and set your ribs over your pelvis.",
+      "Roll the wheel forward as your hips and shoulders travel together, extending only as far as you can control.",
+      "Press the wheel into the floor and pull it back until it returns beneath your shoulders.",
+      "Keep your lower back from sagging and stop the rollout before your shoulders lose stable support."
+    ]
+  },
+  "barbell-rollout": {
+    "description": "A kneeling rollout using a rolling barbell to challenge trunk control through a long reach.",
+    "instructions": [
+      "Kneel behind a barbell that can roll smoothly, place both hands on the bar, and brace before it moves.",
+      "Roll the bar forward evenly as your arms reach and your body lengthens from the knees.",
+      "Drive your hands down and roll the bar back toward your knees until your shoulders stack over it.",
+      "Keep the bar level as it rolls and end the forward travel before your back arches."
+    ]
+  },
+  "pallof-press": {
+    "description": "A standing cable press that trains the trunk to resist rotation toward the pulley.",
+    "instructions": [
+      "Stand sideways to a cable set near chest height and hold the handle at your sternum with both hands.",
+      "Brace and press your hands straight forward, keeping your shoulders and hips facing ahead.",
+      "Pause with the arms extended, then draw the handle back to your chest without turning toward the cable.",
+      "Keep both feet rooted and adjust your stance if the cable pulls you out of alignment."
+    ]
+  },
+  "half-kneeling-pallof-press": {
+    "description": "A half-kneeling anti-rotation press that narrows lower-body support against a side cable pull.",
+    "instructions": [
+      "Kneel sideways to a chest-height cable with the inside knee down and hold the handle at your sternum.",
+      "Squeeze the down-side glute and press both hands forward while your pelvis and ribs remain square.",
+      "Hold the extended position briefly, then return the handle to your chest before changing sides.",
+      "Keep your front foot and rear knee aligned rather than leaning away from the pulley."
+    ]
+  },
+  "cable-wood-chop": {
+    "description": "A diagonal cable rotation that travels from a high starting point toward the opposite hip.",
+    "instructions": [
+      "Stand sideways to a high pulley, take the handle in both hands, and set a stable stance.",
+      "Rotate your ribs and hips together as you guide the handle diagonally down across your body.",
+      "Reverse the diagonal path slowly until your hands return near the high pulley, then reset your stance.",
+      "Pivot through your feet as needed and avoid twisting only through your knees or lower back."
+    ]
+  },
+  "cable-low-to-high-chop": {
+    "description": "An upward diagonal cable rotation that carries the hands from one hip toward the opposite shoulder.",
+    "instructions": [
+      "Stand sideways to a low pulley, hold the handle with both hands near the cable-side hip, and soften your knees.",
+      "Rotate through your hips and ribs as you sweep the handle upward across your body.",
+      "Pause near the opposite shoulder, then follow the same diagonal slowly back to the starting hip.",
+      "Let your feet pivot with the turn and keep your arms connected to your torso rather than yanking the cable."
+    ]
+  },
+  "russian-twist": {
+    "description": "A seated rotation that moves the rib cage from side to side while balancing behind the hips.",
+    "instructions": [
+      "Sit with knees bent and feet supported, lean your torso back, and clasp your hands in front of your chest.",
+      "Rotate your ribs to bring both hands beside one hip, then turn smoothly toward the other side.",
+      "Return to center, bring your torso upright, and place your hands down to finish.",
+      "Keep your spine long and reduce the backward lean if your lower back rounds."
+    ]
+  },
+  "weighted-russian-twist": {
+    "description": "A seated rotational exercise that carries a plate across the body while the trunk stays reclined.",
+    "instructions": [
+      "Sit with knees bent and feet supported, hold a plate near your chest, and lean back with a long spine.",
+      "Turn your rib cage and carry the plate toward one hip, then rotate under control toward the other hip.",
+      "Bring the plate back to center and sit upright before setting it down securely.",
+      "Keep the plate close enough to prevent arm momentum and do not let the knees sway with each turn."
+    ]
+  },
+  "seated-medicine-ball-rotation": {
+    "description": "A seated trunk turn that carries a medicine ball across the body from hip to hip.",
+    "instructions": [
+      "Sit tall with knees bent, feet planted, and a medicine ball held close to your sternum.",
+      "Rotate your ribs to move the ball toward one hip, then turn steadily through center toward the other hip.",
+      "Return the ball to your sternum and square your torso before placing it down.",
+      "Keep both sitting bones grounded and avoid creating the turn by swinging the ball with your arms."
+    ]
+  },
+  "standing-medicine-ball-trunk-rotation": {
+    "description": "A standing rotation that moves a medicine ball across the torso while the lower body turns with it.",
+    "instructions": [
+      "Stand with feet comfortably apart and hold a medicine ball in front of your chest with soft elbows.",
+      "Turn your ribs, hips, and ball toward one side, allowing the opposite heel to pivot naturally.",
+      "Rotate smoothly through center to the other side, then finish facing forward with the ball at your chest.",
+      "Keep the ball controlled near your trunk and avoid locking the feet while forcing the torso to twist."
+    ]
+  },
+  "suitcase-carry": {
+    "description": "A one-sided carry that challenges the trunk to remain upright against an uneven pull.",
+    "instructions": [
+      "Stand beside a dumbbell, pick it up with a hip hinge, and hold it at one side with shoulders level.",
+      "Walk with deliberate, even steps while keeping your ribs stacked over your pelvis.",
+      "Come to a complete stop, hinge to place the dumbbell down, and repeat with the other hand.",
+      "Keep the dumbbell clear of your leg and resist leaning toward or away from the loaded side."
+    ]
+  },
+  "stability-ball-crunch": {
+    "description": "A trunk curl over a stability ball that begins from a supported, gently extended position.",
+    "instructions": [
+      "Sit on the ball, walk your feet forward, and settle your lower and middle back over its curve.",
+      "Anchor your feet and curl your ribs toward your pelvis while the ball stays beneath your back.",
+      "Pause at the top, then uncurl slowly until your spine follows the ball's surface again.",
+      "Keep your feet planted and hips steady so the ball does not roll away during the crunch."
+    ]
+  },
+  "stability-ball-rollout": {
+    "description": "A kneeling forearm rollout over a stability ball that lengthens the trunk behind moving support.",
+    "instructions": [
+      "Kneel facing the ball, place your forearms on top, and align your ribs over your pelvis.",
+      "Roll the ball forward beneath your forearms as your body extends in one line from the knees.",
+      "Press your forearms down and draw the ball back until your elbows return near the starting position.",
+      "Keep your hips from leading the motion and stop before your lower back drops into an arch."
+    ]
+  },
+  "mountain-climber": {
+    "description": "A dynamic high-plank exercise that alternates knee drives beneath a stable upper body.",
+    "instructions": [
+      "Start in a high plank with hands under shoulders, legs extended, and feet balanced on the toes.",
+      "Drive one knee beneath your torso, return that foot, and alternate legs at a controlled rhythm.",
+      "Extend both legs back to a steady plank, then lower your knees to finish.",
+      "Keep your shoulders over your hands and slow down if your hips bounce or your back arches."
+    ]
+  },
+  "trx-fallout": {
+    "description": "A standing suspension rollout that leans the body forward as the handles travel overhead.",
+    "instructions": [
+      "Face away from the anchor, hold the handles with straight arms, and lean into the straps from a staggered stance.",
+      "Let your arms travel forward and overhead as your body inclines in one firm line.",
+      "Press down through the handles and bring your arms back in front of you to return upright.",
+      "Keep the straps taut and limit the forward lean before your ribs flare or lower back arches."
+    ]
+  }
+}

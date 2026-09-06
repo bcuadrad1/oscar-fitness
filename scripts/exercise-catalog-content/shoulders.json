@@ -1,0 +1,263 @@
+{
+  "cable-reverse-fly": {
+    "description": "A standing cable fly that keeps tension on the rear shoulders as the arms sweep outward.",
+    "instructions": [
+      "Set both pulleys near shoulder height, take the opposite handles, and stand centered with arms crossed in front.",
+      "With soft elbows, sweep both arms out and back until they align with your torso.",
+      "Pause with the handles spread, then guide them across the front under control.",
+      "Keep your chest still and avoid turning the fly into a row by bending the elbows further."
+    ]
+  },
+  "reverse-pec-deck": {
+    "description": "A machine-supported reverse fly that isolates the rear shoulders along a fixed path.",
+    "instructions": [
+      "Face the pad, set the handles at shoulder level, and brace your chest against the support.",
+      "Press the handles apart in a wide arc while keeping a slight, steady bend in your elbows.",
+      "Finish when your upper arms reach the line of your torso, then let the handles return slowly.",
+      "Keep your shoulders down and your chest on the pad instead of leaning back for momentum."
+    ]
+  },
+  "incline-dumbbell-reverse-fly": {
+    "description": "A chest-supported dumbbell fly that targets the rear shoulders without relying on torso momentum.",
+    "instructions": [
+      "Lie face down on an incline bench with a dumbbell in each hand and palms facing inward.",
+      "Raise the dumbbells out to the sides in a broad arc, keeping the elbows softly bent.",
+      "Stop as the upper arms approach torso level, then lower the dumbbells beneath the bench with control.",
+      "Keep your chest planted and neck neutral so the rear shoulders, not a body swing, drive the lift."
+    ]
+  },
+  "seated-dumbbell-shoulder-press": {
+    "description": "A bench-supported overhead press for the shoulders using independently moving dumbbells.",
+    "instructions": [
+      "Sit against an upright bench and hold the dumbbells beside your shoulders with forearms vertical.",
+      "Press both dumbbells upward, bringing them slightly inward as your elbows straighten.",
+      "Finish overhead without striking the weights together, then lower them to shoulder level slowly.",
+      "Keep your back against the pad and wrists stacked over your elbows throughout the press."
+    ]
+  },
+  "standing-dumbbell-shoulder-press": {
+    "description": "A standing dumbbell press that trains the shoulders while the trunk stabilizes the overhead path.",
+    "instructions": [
+      "Stand with feet firmly planted and hold the dumbbells at shoulder height with forearms upright.",
+      "Brace your trunk and press the dumbbells overhead without using a knee dip or leg drive.",
+      "Reach a balanced overhead position, then lower both weights smoothly to the shoulders.",
+      "Keep your ribs stacked over your pelvis and do not lean back to clear the dumbbells."
+    ]
+  },
+  "barbell-overhead-press": {
+    "description": "A standing barbell press that moves the bar from the upper chest to a stable overhead position.",
+    "instructions": [
+      "Grip the bar just outside shoulder width, rest it at the upper chest, and stand tall with elbows slightly forward.",
+      "Press the bar vertically, moving your head back briefly so the bar can pass close to your face.",
+      "Finish with the bar over your midfoot, then lower it along the same close path to the upper chest.",
+      "Squeeze your glutes and keep your ribs down rather than arching your lower back to complete the press."
+    ]
+  },
+  "seated-barbell-shoulder-press": {
+    "description": "A seated barbell press that uses bench support for a steady shoulder-focused overhead drive.",
+    "instructions": [
+      "Sit against an upright bench, grip the racked bar outside shoulder width, and unrack it to the upper chest.",
+      "Press the bar upward past your face while keeping your forearms beneath it.",
+      "Settle the bar over your shoulders at the top, then lower it under control to the starting point.",
+      "Maintain contact with the backrest and avoid flaring your ribs or bouncing the bar off your chest."
+    ]
+  },
+  "smith-machine-shoulder-press": {
+    "description": "A seated shoulder press that follows the guided vertical track of a Smith machine.",
+    "instructions": [
+      "Center an upright bench under the bar, grip outside shoulder width, and unlock the bar at upper-chest height.",
+      "Press along the rails until your arms are straight while keeping your forearms aligned under the bar.",
+      "Pause at the top, then lower the bar steadily to just below chin level before the next repetition.",
+      "Position the bench so the track clears your face, and keep your back supported without excessive arching."
+    ]
+  },
+  "machine-shoulder-press": {
+    "description": "A guided seated press that loads the shoulders through the machine's fixed movement path.",
+    "instructions": [
+      "Adjust the seat so the handles begin around shoulder height, then sit with your back on the pad.",
+      "Drive the handles upward until your arms are nearly straight, keeping your elbows under your hands.",
+      "Pause without locking hard at the top, then lower the handles slowly to the machine stops or start position.",
+      "Keep your head and torso against the pads and avoid shrugging your shoulders toward your ears."
+    ]
+  },
+  "arnold-press": {
+    "description": "A rotating dumbbell press that transitions from a palms-in front rack to an overhead finish.",
+    "instructions": [
+      "Hold the dumbbells in front of your shoulders with palms facing you and elbows pointing forward.",
+      "Press upward while opening the elbows and rotating the palms to face forward.",
+      "Finish with the dumbbells overhead, then reverse the rotation as you lower to the front rack.",
+      "Rotate smoothly through the shoulders and keep your torso still rather than forcing the elbows far behind you."
+    ]
+  },
+  "single-arm-dumbbell-shoulder-press": {
+    "description": "A one-sided overhead press that challenges shoulder strength and resistance to trunk rotation.",
+    "instructions": [
+      "Stand tall with one dumbbell at shoulder height, forearm vertical, and the free arm relaxed at your side.",
+      "Brace your trunk and press the dumbbell overhead without leaning toward the opposite side.",
+      "Stack the weight over that shoulder, then lower it smoothly back to the rack position before switching sides.",
+      "Keep both hips level and resist twisting or using your legs to start the press."
+    ]
+  },
+  "dumbbell-lateral-raise": {
+    "description": "A free-weight raise that trains the side shoulders by lifting the arms away from the body.",
+    "instructions": [
+      "Stand with a dumbbell at each side, palms inward, and elbows slightly bent.",
+      "Raise your arms out to the sides, leading with the elbows until they approach shoulder height.",
+      "Pause with the weights wide, then lower them slowly back beside your thighs.",
+      "Keep your torso quiet and wrists neutral instead of swinging or tipping the dumbbells upward."
+    ]
+  },
+  "cable-lateral-raise": {
+    "description": "A two-arm lateral raise that uses low cables for continuous tension across the side shoulders.",
+    "instructions": [
+      "Stand centered between low pulleys, cross the cables, and hold the opposite handles near your thighs.",
+      "Lift both arms out to the sides with soft elbows until the handles approach shoulder height.",
+      "Hold the wide position briefly, then guide the crossed handles down without letting the stacks drop.",
+      "Stay upright and keep your shoulders away from your ears as the cables pull across your body."
+    ]
+  },
+  "single-arm-cable-lateral-raise": {
+    "description": "A unilateral low-cable raise that keeps steady tension on one side shoulder at a time.",
+    "instructions": [
+      "Stand side-on to a low pulley, take the handle with the outside hand, and let the cable pass in front of you.",
+      "Raise the working arm out to the side with a soft elbow until it nears shoulder height.",
+      "Pause at the top, then lower the handle across the front of your body under control before changing sides.",
+      "Keep your hips square and avoid leaning away from the pulley to move the handle."
+    ]
+  },
+  "machine-lateral-raise": {
+    "description": "A guided lateral raise that places the upper arms against pads to focus work on the side shoulders.",
+    "instructions": [
+      "Adjust the seat so your shoulder joints align with the machine pivots and place your upper arms against the pads.",
+      "Drive the pads outward and upward through your elbows until your upper arms approach shoulder height.",
+      "Pause at the raised position, then lower the pads slowly until they nearly meet the stops.",
+      "Keep your torso against the support and do not shrug or push through your hands."
+    ]
+  },
+  "dumbbell-front-raise": {
+    "description": "A dumbbell raise that emphasizes the front shoulders as the arms travel forward.",
+    "instructions": [
+      "Stand with the dumbbells in front of your thighs, palms toward you, and elbows softly bent.",
+      "Raise the weights forward to about shoulder height without changing the elbow angle.",
+      "Pause in front, then lower the dumbbells to your thighs with a smooth, controlled descent.",
+      "Keep your ribs down and avoid rocking your torso or lifting the weights above a comfortable range."
+    ]
+  },
+  "cable-front-raise": {
+    "description": "A front shoulder raise using a low cable to maintain tension from the bottom of the arc.",
+    "instructions": [
+      "Face away from a low pulley with the cable between your legs and hold its attachment in both hands in front of your thighs.",
+      "Raise the attachment forward with nearly straight arms until your hands reach shoulder height.",
+      "Pause at the front, then lower the attachment slowly until your arms return beside your thighs.",
+      "Stand tall and keep the cable from pulling your torso backward or your shoulders upward."
+    ]
+  },
+  "plate-front-raise": {
+    "description": "A two-handed plate raise that trains the front shoulders through a centered forward arc.",
+    "instructions": [
+      "Stand tall and hold a weight plate securely at its sides in front of your thighs.",
+      "Lift the plate forward with softly bent elbows until its center reaches about shoulder height.",
+      "Hold the plate steady, then lower it under control to the front of your thighs.",
+      "Keep both hands firmly on the plate and avoid leaning back or using a hip swing."
+    ]
+  },
+  "dumbbell-rear-delt-fly": {
+    "description": "A hip-hinged dumbbell fly that trains the rear shoulders as the arms open away from the torso.",
+    "instructions": [
+      "Hold a dumbbell in each hand, hinge forward with a flat back, and let your arms hang below your shoulders.",
+      "Sweep the dumbbells out to the sides with soft elbows until your upper arms align with your torso.",
+      "Pause in the open position, then lower the weights together beneath your chest slowly.",
+      "Maintain the same hinge and elbow angle, avoiding a torso rise or rowing motion."
+    ]
+  },
+  "face-pull": {
+    "description": "A rope cable pull toward the face that combines rear-shoulder movement with outward arm rotation.",
+    "instructions": [
+      "Set a rope at upper-chest or face height, grasp both ends, and step back with arms extended.",
+      "Pull the rope toward your face while spreading its ends and driving your elbows outward.",
+      "Finish with your hands beside your temples, then extend your arms slowly toward the pulley.",
+      "Keep your ribs stacked and shoulders down instead of leaning back or jutting your head forward."
+    ]
+  },
+  "cable-external-rotation": {
+    "description": "A standing cable rotation that trains the shoulder while the upper arm stays anchored near the torso.",
+    "instructions": [
+      "Stand side-on to a pulley set near elbow height and hold the handle with the far hand, elbow bent at your side.",
+      "Rotate your forearm away from the pulley while keeping your elbow pinned near your ribs.",
+      "Stop before the upper arm shifts, then guide the handle back across your abdomen slowly.",
+      "Keep your wrist straight and torso square so the movement comes from shoulder rotation, not body turning."
+    ]
+  },
+  "resistance-band-external-rotation": {
+    "description": "A band-resisted shoulder rotation performed with the elbow held close to the side.",
+    "instructions": [
+      "Anchor a resistance band near elbow height, stand side-on, and take it in the outside hand with your elbow bent.",
+      "Rotate the forearm outward against the band while the upper arm remains beside your ribs.",
+      "Pause at your controlled outer range, then return the hand toward your abdomen without losing band tension.",
+      "Keep your shoulder down, wrist neutral, and torso still rather than twisting away from the anchor."
+    ]
+  },
+  "dumbbell-external-rotation": {
+    "description": "A side-lying dumbbell rotation that isolates the shoulder with the upper arm supported by the torso.",
+    "instructions": [
+      "Lie on your side with the top elbow bent against your ribs and hold a dumbbell across your abdomen.",
+      "Keeping the elbow fixed, rotate the forearm upward until it points near vertical or reaches a comfortable limit.",
+      "Pause at the top, then lower the dumbbell across your abdomen with control before changing sides.",
+      "Do not roll your torso backward or let the elbow drift away from your side."
+    ]
+  },
+  "upright-row": {
+    "description": "A close-to-body barbell pull that trains the shoulders as the elbows rise outward.",
+    "instructions": [
+      "Stand with the bar in front of your thighs using an overhand grip and arms extended.",
+      "Pull the bar upward close to your torso, leading with your elbows as they move out to the sides.",
+      "Stop at a comfortable height below the point where your shoulders roll forward, then lower the bar slowly.",
+      "Keep your wrists aligned with your forearms and avoid leaning back or jerking the bar upward."
+    ]
+  },
+  "cable-upright-row": {
+    "description": "An upright row using a low cable for a smooth, continuously resisted shoulder pull.",
+    "instructions": [
+      "Face a low pulley, hold a straight-bar attachment overhand, and stand with the cable centered between your feet.",
+      "Draw the bar up along your torso by lifting your elbows outward and keeping your hands below them.",
+      "End at a comfortable upper range, then guide the attachment down until your arms are straight.",
+      "Stay tall and keep the pull smooth rather than shrugging, rocking, or forcing your elbows higher."
+    ]
+  },
+  "dumbbell-upright-row": {
+    "description": "A two-dumbbell upright pull that allows each shoulder and wrist to follow its own path.",
+    "instructions": [
+      "Stand with a dumbbell in each hand in front of your thighs, palms facing your body.",
+      "Pull the dumbbells upward near your sides while your elbows travel out and above your hands.",
+      "Stop within a comfortable shoulder range, then lower both dumbbells steadily to your thighs.",
+      "Let the weights separate naturally and avoid swinging your torso or forcing the elbows high."
+    ]
+  },
+  "landmine-press": {
+    "description": "An angled two-handed barbell press that drives the landmine end forward and upward from the chest.",
+    "instructions": [
+      "Face the landmine, cup the end of the bar with both hands at your upper chest, and take a stable stance.",
+      "Press the bar away and upward along its arc while keeping your torso square to the anchor.",
+      "Finish with both arms extended toward the bar path, then draw the bar back to your chest under control.",
+      "Keep your ribs down and do not turn the movement into a standing incline press by leaning into the bar."
+    ]
+  },
+  "single-arm-landmine-press": {
+    "description": "A one-arm angled barbell press that trains the shoulder while the trunk resists rotation.",
+    "instructions": [
+      "Face the landmine in a staggered stance and hold the bar end at one shoulder with your palm underneath it.",
+      "Press the bar forward and upward along its arc as you keep your chest facing the anchor.",
+      "Reach fully through the press, then lower the bar end smoothly back to the same shoulder before switching arms.",
+      "Keep your wrist stacked under the bar and resist twisting, side-bending, or driving with your legs."
+    ]
+  },
+  "kettlebell-halo": {
+    "description": "A controlled kettlebell circle around the head that moves the shoulders through multiple angles.",
+    "instructions": [
+      "Stand tall and hold the kettlebell by the horn sides upside down in front of your upper chest.",
+      "Guide the bell around one side of your head, behind it, and forward around the other side in a close circle.",
+      "Finish with the bell centered at your chest, then repeat the circle in the opposite direction.",
+      "Keep your head still, ribs down, and elbows controlled so the bell clears your head without contacting it."
+    ]
+  }
+}

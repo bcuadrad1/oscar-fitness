@@ -1,0 +1,155 @@
+{
+  "cable-triceps-pushdown": {
+    "description": "A standing cable extension that trains the triceps through a direct downward press with a straight bar.",
+    "instructions": [
+      "Attach a straight bar to a high pulley, take an overhand grip, and stand with your elbows tucked beside your ribs.",
+      "Press the bar down by straightening your elbows while keeping your shoulders and upper arms still.",
+      "Finish with the bar near your thighs, then let it rise under control until your forearms approach your upper arms.",
+      "Keep your wrists stacked over the bar and avoid leaning onto it or letting your elbows drift forward."
+    ]
+  },
+  "rope-triceps-pushdown": {
+    "description": "A rope-based cable extension that allows the hands to separate as the elbows reach full extension.",
+    "instructions": [
+      "Clip a rope to a high pulley, grasp an end in each hand, and set your elbows close to your sides with a neutral grip.",
+      "Drive the rope downward by extending your elbows, separating the ends as they pass your hips.",
+      "Reach a firm straight-arm finish, then guide the rope upward until your elbows are fully bent without moving your upper arms.",
+      "Keep your torso quiet and do not turn the movement into a shoulder pull or wrist flick."
+    ]
+  },
+  "reverse-grip-triceps-pushdown": {
+    "description": "An underhand cable pushdown that challenges triceps control while the forearms stabilize the bar.",
+    "instructions": [
+      "Set a straight bar on a high pulley and hold it palms up with your elbows pinned near your waist.",
+      "Extend your elbows to draw the bar toward your thighs, keeping the underhand grip and upper arms fixed.",
+      "Pause with your arms straight, then allow the bar to return smoothly until your forearms near your biceps.",
+      "Keep your wrists neutral and use a secure grip so the bar does not roll into your fingers."
+    ]
+  },
+  "single-arm-cable-pushdown": {
+    "description": "A unilateral cable extension that lets each triceps work independently through a downward pressing path.",
+    "instructions": [
+      "Attach a single handle to a high pulley, face the stack, and hold the handle with one elbow tucked against your side.",
+      "Press the handle down by extending only the working elbow while keeping your chest square to the cable.",
+      "Finish with the hand beside your thigh, then return the handle slowly to the fully bent-elbow position before switching arms.",
+      "Keep the working shoulder level and resist twisting or using your body to drive the handle."
+    ]
+  },
+  "overhead-cable-triceps-extension": {
+    "description": "A standing cable extension performed overhead to train the triceps with the arms beside the head.",
+    "instructions": [
+      "Attach a rope to a low pulley, face away from the stack, and bring the rope overhead with your elbows pointing forward.",
+      "Extend your elbows to send the rope forward and upward while your upper arms stay close to your ears.",
+      "Separate the rope ends at full extension, then bend your elbows slowly to bring your hands behind your head.",
+      "Brace your torso and avoid arching your back or allowing the cable to pull your elbows wide."
+    ]
+  },
+  "dumbbell-overhead-triceps-extension": {
+    "description": "A two-handed overhead extension that moves one dumbbell behind the head and back to straight arms.",
+    "instructions": [
+      "Stand or sit tall, cup both hands around one dumbbell end, and hold it overhead with your elbows aimed forward.",
+      "Bend your elbows to lower the dumbbell behind your head while keeping your upper arms nearly vertical.",
+      "Extend your elbows to bring the dumbbell back over your head, then begin the next controlled lowering phase.",
+      "Keep your ribs down, maintain a firm two-handed hold, and do not let your elbows flare apart."
+    ]
+  },
+  "single-arm-dumbbell-overhead-extension": {
+    "description": "A one-arm overhead extension that isolates each triceps while the torso maintains a stable position.",
+    "instructions": [
+      "Stand or sit upright and hold one dumbbell overhead with your palm facing inward and elbow close to your head.",
+      "Lower the dumbbell behind your shoulder by bending the elbow without letting the upper arm tip sideways.",
+      "Straighten the arm above you, then return to the lowered position with control before changing sides.",
+      "Keep your head neutral and prevent your ribs, shoulder, or wrist from shifting to assist the lift."
+    ]
+  },
+  "dumbbell-triceps-kickback": {
+    "description": "A hinged dumbbell extension that trains the triceps while the upper arm remains aligned with the torso.",
+    "instructions": [
+      "Take a staggered stance, hinge with a flat back, brace one hand on your front thigh, and hold the dumbbell with your working elbow bent beside your torso.",
+      "Extend the elbow to sweep the dumbbell backward while keeping the upper arm fixed in place.",
+      "Finish with the arm straight behind you, then bend the elbow slowly until the dumbbell returns beneath it.",
+      "Keep your shoulder square to the floor and avoid swinging the dumbbell or lifting the elbow higher to gain momentum."
+    ]
+  },
+  "barbell-skull-crusher": {
+    "description": "A lying barbell extension that trains both triceps as the elbows bend and straighten above the bench.",
+    "instructions": [
+      "Lie on a flat bench, hold the bar with an overhand grip, and position straight arms above your shoulders.",
+      "Bend your elbows to lower the bar toward the space just behind your forehead while keeping your upper arms steady.",
+      "Extend your elbows to return the bar over your shoulders, stopping with controlled straight arms.",
+      "Keep your wrists aligned with your forearms and prevent your elbows from spreading as the bar approaches your head."
+    ]
+  },
+  "dumbbell-skull-crusher": {
+    "description": "A lying triceps extension using separate dumbbells for an independent, neutral-grip arm path.",
+    "instructions": [
+      "Lie on a flat bench with a dumbbell in each hand, palms facing each other, and arms extended above your shoulders.",
+      "Bend both elbows to lower the dumbbells beside your temples while your upper arms remain angled upward.",
+      "Straighten your elbows to bring the dumbbells back over your shoulders, then lower them again under control.",
+      "Keep each wrist firm and each elbow tracking forward so the dumbbells stay clear of your face."
+    ]
+  },
+  "close-grip-bench-press": {
+    "description": "A barbell press with a narrower hand position that emphasizes elbow extension while the chest assists.",
+    "instructions": [
+      "Lie on a flat bench, plant your feet, and grip the racked bar around shoulder width with wrists over forearms.",
+      "Unrack the bar and lower it toward your lower chest with your elbows tracking close to your torso.",
+      "Press the bar upward until your arms are straight, then stabilize it over your shoulders before the next descent.",
+      "Keep your shoulder blades set on the bench and avoid an excessively narrow grip that forces your wrists outward."
+    ]
+  },
+  "machine-triceps-extension": {
+    "description": "A seated machine movement that guides elbow extension while the upper arms stay supported on the pad.",
+    "instructions": [
+      "Adjust the seat so your elbows align with the machine pivot, place your upper arms on the pad, and grasp the handles.",
+      "Press the handles through the machine arc by straightening your elbows without lifting your arms from the pad.",
+      "Reach the end of the extension smoothly, then let the handles return until your elbows are comfortably bent.",
+      "Keep your back against the seat and avoid slamming the lever into either end of its travel."
+    ]
+  },
+  "assisted-dip": {
+    "description": "A machine-supported dip that offsets part of the bodyweight while the triceps drive the pressing motion.",
+    "instructions": [
+      "Set the assistance, grip the parallel handles, and place your knees or feet securely on the moving platform with your torso upright.",
+      "Lower the platform under control by bending your elbows and keeping them directed behind you.",
+      "Press through the handles until your arms are straight, then settle the platform before beginning another descent.",
+      "Keep your shoulders down away from your ears and enter or leave the moving platform only when it is stable."
+    ]
+  },
+  "bench-dip": {
+    "description": "A bodyweight triceps press performed from the edge of a bench with the feet supported on the floor.",
+    "instructions": [
+      "Sit on a stable bench, place your palms on its front edge beside your hips, and walk your feet forward as your hips clear the bench.",
+      "Bend your elbows straight behind you to lower your hips close to the bench while keeping your chest upright.",
+      "Press the bench away until your arms are straight, then stabilize your hips before lowering again.",
+      "Keep your back near the bench and stop the descent before your shoulders roll forward or your elbows flare."
+    ]
+  },
+  "triceps-dip": {
+    "description": "An upright parallel-bar dip that uses bodyweight resistance to emphasize the triceps.",
+    "instructions": [
+      "Mount the parallel bars, support yourself on straight arms, and hold your torso upright with your legs clear of the floor.",
+      "Lower your body by bending your elbows behind you while maintaining the upright torso position.",
+      "Press down into the bars until your arms are straight, then regain a motionless support before repeating.",
+      "Keep your shoulders away from your ears and avoid bouncing out of the bottom or swinging your legs."
+    ]
+  },
+  "weighted-dip": {
+    "description": "A parallel-bar triceps dip performed with a mechanically secured weight plate for added resistance.",
+    "instructions": [
+      "Secure the weight plate with a station-approved loading attachment, mount the parallel bars carefully, and establish an upright straight-arm support.",
+      "Descend smoothly by bending your elbows behind you while the secured plate remains quiet beneath your hips.",
+      "Drive the bars downward to return to straight arms, pause to stop any sway, and repeat from a stable position.",
+      "Confirm the attachment is closed, keep the plate clear of the station, and dismount only after the plate is still."
+    ]
+  },
+  "diamond-push-up": {
+    "description": "A close-hand push-up that places a greater share of the pressing work on the triceps.",
+    "instructions": [
+      "Start in a high plank with your thumbs and index fingers forming a diamond beneath your chest and your body in one line.",
+      "Lower your chest toward your hands by bending your elbows back along your sides without letting your hips sag.",
+      "Press the floor away until your elbows are straight, then reset the rigid plank before the next repetition.",
+      "Keep pressure spread across your palms and adjust the hand spacing if you cannot keep your wrists and elbows aligned."
+    ]
+  }
+}

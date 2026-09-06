@@ -1,0 +1,218 @@
+{
+  "dumbbell-biceps-curl": {
+    "description": "A standing curl that trains both biceps through a palms-up arm path.",
+    "instructions": [
+      "Stand tall with a dumbbell in each hand, palms forward and elbows close to your sides.",
+      "Curl both dumbbells toward your shoulders without letting your upper arms drift forward.",
+      "Pause at the top, then lower the dumbbells under control until your arms are straight.",
+      "Keep your wrists stacked and torso still rather than using momentum to lift."
+    ]
+  },
+  "alternating-dumbbell-curl": {
+    "description": "A dumbbell curl performed one side at a time to focus on each arm independently.",
+    "instructions": [
+      "Stand with a dumbbell in each hand, arms at your sides and palms facing forward.",
+      "Curl one dumbbell toward its shoulder while the opposite arm remains long and quiet.",
+      "Lower the working dumbbell smoothly, then repeat the same path with the other arm.",
+      "Keep both elbows beside your ribs and avoid leaning toward the working side."
+    ]
+  },
+  "seated-dumbbell-curl": {
+    "description": "A seated palms-up curl that limits lower-body assistance and isolates the biceps.",
+    "instructions": [
+      "Sit upright against a bench with a dumbbell in each hand, palms forward and arms hanging down.",
+      "Curl the dumbbells toward your shoulders while keeping your upper arms beside your torso.",
+      "Squeeze briefly, then lower both dumbbells with control to the hanging start position.",
+      "Keep your back against the bench and do not drive your shoulders forward."
+    ]
+  },
+  "barbell-biceps-curl": {
+    "description": "A two-arm barbell curl that builds the biceps with a fixed palms-up grip.",
+    "instructions": [
+      "Stand tall holding the barbell with an underhand grip and your hands about shoulder-width apart.",
+      "Bend your elbows to curl the bar toward your upper chest while your upper arms stay still.",
+      "Pause before the bar reaches your shoulders, then lower it smoothly to straight arms.",
+      "Brace your trunk and avoid swinging your hips or bending your wrists."
+    ]
+  },
+  "ez-bar-curl": {
+    "description": "A curl using the angled grips of an EZ bar for a semi-supinated hand position.",
+    "instructions": [
+      "Stand holding the inner angled grips of the EZ bar with your palms turned up and slightly inward.",
+      "Curl the bar toward your chest by bending your elbows without lifting your shoulders.",
+      "Hold the top position briefly, then lower the bar under control until your elbows open fully.",
+      "Keep your knuckles aligned with your forearms and your torso upright throughout."
+    ]
+  },
+  "hammer-curl": {
+    "description": "A neutral-grip dumbbell curl that emphasizes the elbow flexors and forearms.",
+    "instructions": [
+      "Stand with a dumbbell in each hand, palms facing your thighs and thumbs pointing forward.",
+      "Curl both dumbbells upward while maintaining the neutral grip from bottom to top.",
+      "Pause near the shoulders, then lower the dumbbells slowly back beside your thighs.",
+      "Keep your elbows pinned near your ribs and avoid rotating or bending your wrists."
+    ]
+  },
+  "cross-body-hammer-curl": {
+    "description": "A neutral-grip curl that travels diagonally across the torso toward the opposite shoulder.",
+    "instructions": [
+      "Stand with dumbbells at your sides, palms facing inward and shoulders level.",
+      "Curl one dumbbell diagonally across your torso toward the opposite shoulder without twisting it.",
+      "Lower it along the same diagonal path, then complete the movement with the other arm.",
+      "Keep your chest square and resist leaning or rotating as each dumbbell rises."
+    ]
+  },
+  "incline-dumbbell-curl": {
+    "description": "A curl from an inclined bench that begins with the upper arms slightly behind the torso.",
+    "instructions": [
+      "Sit against an incline bench with dumbbells hanging below your shoulders and palms facing forward.",
+      "Curl the dumbbells upward while keeping your upper arms behind or in line with your torso.",
+      "Squeeze at the top, then slowly extend your elbows until the dumbbells hang beneath you again.",
+      "Keep your shoulders against the bench and do not swing the weights out in front."
+    ]
+  },
+  "concentration-curl": {
+    "description": "A supported single-arm curl that isolates the biceps from a seated position.",
+    "instructions": [
+      "Sit with your feet apart and brace the back of one upper arm against the inside of the same-side thigh.",
+      "Curl the dumbbell toward your shoulder while keeping the braced upper arm fixed.",
+      "Pause at the top, then lower the dumbbell slowly until the elbow is straight before switching sides.",
+      "Keep your wrist neutral and avoid pressing the elbow point into your thigh."
+    ]
+  },
+  "preacher-curl": {
+    "description": "A barbell curl with the upper arms supported on a preacher pad for a strict arm path.",
+    "instructions": [
+      "Sit at the preacher bench with both upper arms flat on the pad and hold the barbell underhand.",
+      "Curl the bar toward your shoulders while maintaining contact between your upper arms and the pad.",
+      "Pause near the top, then lower the bar steadily until your elbows are nearly straight.",
+      "Keep your chest against the bench and avoid dropping into the bottom position."
+    ]
+  },
+  "dumbbell-preacher-curl": {
+    "description": "A single-arm dumbbell curl using a preacher pad to stabilize the upper arm.",
+    "instructions": [
+      "Place one upper arm fully on the preacher pad and hold a dumbbell with your palm facing up.",
+      "Curl the dumbbell toward your shoulder without lifting your arm away from the pad.",
+      "Squeeze briefly, then lower the dumbbell under control until the elbow is nearly straight before changing arms.",
+      "Keep your shoulder centered behind the working arm and do not bounce at the bottom."
+    ]
+  },
+  "cable-biceps-curl": {
+    "description": "A standing curl that uses a low cable to keep tension on the biceps throughout the motion.",
+    "instructions": [
+      "Face a low cable and hold the bar attachment underhand with your elbows close to your sides.",
+      "Curl the bar toward your chest while keeping your shoulders down and upper arms still.",
+      "Pause at the top, then guide the bar back down until your arms are straight.",
+      "Stand far enough from the stack to keep the cable clear, and do not let it pull your torso forward."
+    ]
+  },
+  "single-arm-cable-curl": {
+    "description": "A unilateral low-cable curl that lets each biceps work through a consistent line of resistance.",
+    "instructions": [
+      "Face a low pulley and hold its handle in one hand with your palm up and arm extended.",
+      "Curl the handle toward the same-side shoulder while keeping your elbow beside your ribs.",
+      "Pause at the top, then extend the arm slowly to the start position before switching sides.",
+      "Keep your hips and shoulders square so the cable does not rotate your body."
+    ]
+  },
+  "rope-hammer-curl": {
+    "description": "A cable curl with a rope attachment that maintains a neutral grip and steady tension.",
+    "instructions": [
+      "Face a low cable, grasp the rope ends with palms facing each other, and stand with arms extended.",
+      "Curl the rope upward while keeping the ends separated and your upper arms close to your torso.",
+      "Squeeze near the top, then lower the rope smoothly until your elbows are straight.",
+      "Keep your wrists neutral and avoid pulling the rope apart with your shoulders."
+    ]
+  },
+  "high-cable-curl": {
+    "description": "A cable curl performed with the upper arms raised out to the sides for a shortened biceps position.",
+    "instructions": [
+      "Stand centered between high pulleys and hold the handles with palms up and arms extended to the sides.",
+      "Curl the handles toward your temples while keeping your upper arms level and stationary.",
+      "Pause with your hands near your head, then straighten your elbows slowly to the wide start position.",
+      "Keep your ribs down and do not let the cables pull your shoulders forward."
+    ]
+  },
+  "machine-biceps-curl": {
+    "description": "A guided curl that supports the upper arms and keeps the biceps on a fixed path.",
+    "instructions": [
+      "Adjust the seat so your elbows align with the machine pivot, then place your upper arms on the pad and grip the handles.",
+      "Curl the handles toward you while keeping your upper arms firmly supported.",
+      "Pause at the top, then lower the handles with control until your arms are nearly straight.",
+      "Keep your shoulders down and do not lift your elbows from the pad."
+    ]
+  },
+  "dumbbell-wrist-curl": {
+    "description": "A palms-up wrist curl that trains the forearm flexors with the forearms supported.",
+    "instructions": [
+      "Sit with your forearms resting on your thighs or a bench, palms up and wrists extending beyond the edge.",
+      "Curl the dumbbells upward by flexing only your wrists while your forearms remain planted.",
+      "Pause at the top, then lower the dumbbells slowly until your wrists extend below the support.",
+      "Keep your hands aligned with your forearms and avoid lifting your elbows."
+    ]
+  },
+  "dumbbell-reverse-wrist-curl": {
+    "description": "A palms-down wrist curl that targets the forearm extensors with independent dumbbells.",
+    "instructions": [
+      "Sit with your forearms supported, palms down and hands holding dumbbells beyond the edge of your thighs or bench.",
+      "Raise the backs of your hands by extending your wrists without moving your forearms.",
+      "Pause at the top, then lower the dumbbells under control until your wrists flex below the support.",
+      "Keep your grip secure and use only wrist motion rather than lifting your elbows."
+    ]
+  },
+  "barbell-wrist-curl": {
+    "description": "A two-handed palms-up wrist curl that works the forearm flexors in unison.",
+    "instructions": [
+      "Sit with your forearms supported and hold a barbell underhand, wrists just beyond the edge of your thighs or bench.",
+      "Curl the bar upward by flexing both wrists while keeping your forearms still.",
+      "Pause at the top, then lower the bar smoothly until your wrists extend below the support.",
+      "Keep both hands level and maintain a closed grip around the bar."
+    ]
+  },
+  "barbell-reverse-wrist-curl": {
+    "description": "A two-handed palms-down wrist curl that emphasizes the forearm extensors.",
+    "instructions": [
+      "Sit with your forearms supported and hold a barbell overhand, wrists extending beyond the edge.",
+      "Lift the back of both hands by extending your wrists while the forearms stay planted.",
+      "Pause at the top, then lower the bar slowly until your wrists flex toward the floor.",
+      "Keep the bar level and avoid opening your fingers or raising your elbows."
+    ]
+  },
+  "reverse-barbell-curl": {
+    "description": "An overhand barbell curl that shifts emphasis toward the forearms and brachialis.",
+    "instructions": [
+      "Stand tall holding a barbell with a shoulder-width overhand grip and arms extended.",
+      "Curl the bar toward your chest while keeping your palms down and upper arms still.",
+      "Pause near the top, then lower the bar under control until your elbows are straight.",
+      "Keep your wrists in line with your forearms and avoid swinging your torso."
+    ]
+  },
+  "reverse-dumbbell-curl": {
+    "description": "An overhand dumbbell curl that trains each forearm while the elbows flex together.",
+    "instructions": [
+      "Stand with a dumbbell in each hand, palms facing behind you and arms hanging at your sides.",
+      "Curl both dumbbells upward while maintaining the palms-down grip and steady upper arms.",
+      "Pause at the top, then lower the dumbbells smoothly to the start position.",
+      "Keep your wrists straight and do not flare your elbows or lean backward."
+    ]
+  },
+  "dead-hang": {
+    "description": "A stationary hang from a pull-up bar that develops grip endurance and overhead control.",
+    "instructions": [
+      "Grip a secure pull-up bar overhand and move your feet clear so your arms support your body.",
+      "Hang with long arms, a steady trunk, and your shoulders held in a controlled position.",
+      "Finish by placing your feet back on the floor before releasing the bar.",
+      "Keep your grip fully closed and avoid swinging, twisting, or dropping from the bar."
+    ]
+  },
+  "plate-pinch-hold": {
+    "description": "A static grip exercise that challenges the fingers and thumbs by pinching a weight plate.",
+    "instructions": [
+      "Stand tall and pinch the edge of a weight plate between your thumb and fingers with your arm at your side.",
+      "Hold the plate still with your wrist neutral and your shoulder level.",
+      "Finish by bending your knees and placing the plate securely on the floor before releasing it.",
+      "Keep your fingers clear of the underside and do not rest the plate against your leg."
+    ]
+  }
+}
