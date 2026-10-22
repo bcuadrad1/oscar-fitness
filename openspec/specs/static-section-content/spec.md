@@ -6,15 +6,19 @@ Define the local placeholder content and mobile presentation required for the fo
 ## Requirements
 
 ### Requirement: Local typed content source
-The MVP section content SHALL be backed only by locally defined, statically typed placeholder data and SHALL not require a backend or remote request to render.
+The Home and Admin section content SHALL remain backed only by locally defined, statically typed placeholder data. Exercises and Routines SHALL be governed by their feature repository contracts backed by offline-capable local development data. No primary section SHALL require a backend, authentication, database, or remote content request to render its non-video content.
 
 #### Scenario: Application runs without a data service
 - **WHEN** the application is launched without network connectivity or backend configuration
-- **THEN** all four primary sections render their placeholder content
+- **THEN** Home and Admin render their local placeholders while Exercises and Routines render offline local data through their feature repositories
 
-#### Scenario: Placeholder data is type checked
+#### Scenario: Local content is type checked
 - **WHEN** the project TypeScript check runs
-- **THEN** the exercise, routine, and section placeholder records satisfy their declared types
+- **THEN** Home and Admin placeholder records and the Exercise and Routine feature records satisfy their declared types
+
+#### Scenario: Feature content is requested
+- **WHEN** Exercises or Routines loads its content
+- **THEN** the section uses its feature repository contract rather than the shared placeholder content source
 
 ### Requirement: Home overview
 The Home section SHALL present Oscar Fitness branding and a concise overview of the Exercises, Routines, and Admin areas.
@@ -29,13 +33,6 @@ The Exercises section SHALL display a static collection of exercise preview reco
 #### Scenario: User opens Exercises
 - **WHEN** the Exercises section is displayed
 - **THEN** multiple exercise previews are shown from the local placeholder data
-
-### Requirement: Routine previews
-The Routines section SHALL display a static collection of routine preview records with enough labeled information to distinguish each routine.
-
-#### Scenario: User opens Routines
-- **WHEN** the Routines section is displayed
-- **THEN** multiple routine previews are shown from the local placeholder data
 
 ### Requirement: Non-operational Admin foundation
 The Admin section SHALL communicate its future management purpose without exposing functional membership management, backend operations, or video uploads.

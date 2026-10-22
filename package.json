@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~57.0.7",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "~57.0.7",
     "expo-constants": "~57.0.6",
     "expo-device": "~57.0.1",
@@ -39,6 +40,8 @@
     "reset-project": "node ./scripts/reset-project.js",
     "generate:exercise-catalog": "node ./scripts/generate-exercise-catalog.mjs",
     "check:exercise-catalog": "node ./scripts/verify-exercise-catalog.mjs",
+    "check:routine-feature": "node ./scripts/verify-routine-feature.mjs",
+    "check:routine-export": "node ./scripts/verify-routine-feature.mjs --export",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",

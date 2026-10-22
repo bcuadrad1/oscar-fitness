@@ -5,15 +5,6 @@ export type HomeAreaPreview = {
   description: string;
 };
 
-export type RoutinePreview = {
-  id: string;
-  name: string;
-  description: string;
-  durationMinutes: number;
-  exerciseCount: number;
-  level: 'Beginner' | 'Intermediate';
-};
-
 export type AdminAreaPreview = {
   id: string;
   title: string;
@@ -41,33 +32,6 @@ export const HOME_AREAS = [
     description: 'See where future content management tools will live before operations are connected.',
   },
 ] as const satisfies readonly HomeAreaPreview[];
-
-export const ROUTINES = [
-  {
-    id: 'full-body-basics',
-    name: 'Full body basics',
-    description: 'A balanced first session built around controlled, repeatable movement patterns.',
-    durationMinutes: 30,
-    exerciseCount: 5,
-    level: 'Beginner',
-  },
-  {
-    id: 'upper-body-builder',
-    name: 'Upper body builder',
-    description: 'A focused strength session for pushing, pulling, and shoulder stability.',
-    durationMinutes: 40,
-    exerciseCount: 6,
-    level: 'Intermediate',
-  },
-  {
-    id: 'mobility-reset',
-    name: 'Mobility reset',
-    description: 'A short recovery sequence for hips, shoulders, and everyday range of motion.',
-    durationMinutes: 15,
-    exerciseCount: 4,
-    level: 'Beginner',
-  },
-] as const satisfies readonly RoutinePreview[];
 
 export const ADMIN_AREAS = [
   {
